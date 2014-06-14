@@ -1,16 +1,30 @@
 ﻿using UnityEngine;
 using System.Collections;
 
-public class StateFalling : StateBase
+public class StateFalling : StateBaseEnemy
 {
 
+    private Transform groundCheck;			// A position marking where to check if the player is grounded.
+
 	// Use this for initialization
-	void Start () {
-	
-	}
-	
+    override protected void InitState()
+    {
+        base.InitState();
+        groundCheck = transform.Find("groundCheck");
+    }
+
 	// Update is called once per frame
-	void Update () {
-	
+	void FixedUpdate ()
+    {
+        // The player is grounded if a linecast to the groundcheck position hits anything on the ground layer.
+        bool grounded = Physics2D.Linecast(transform.position, groundCheck.position, 1 << LayerMask.NameToLayer("Ground"));
+
+        if(grounded)
+        {
+            if(CanGoToState("Blowing"))
+            {
+                GoToState("Blowing");
+            }
+        }
 	}
 }

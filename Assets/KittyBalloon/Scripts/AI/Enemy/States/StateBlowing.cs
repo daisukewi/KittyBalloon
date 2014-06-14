@@ -1,7 +1,7 @@
 ﻿using UnityEngine;
 using System.Collections;
 
-public class StateBlowing : StateBase
+public class StateBlowing : StateBaseEnemy
 {
     public bool CanBlow = true;
     public float BlowCooldown = 10.0f;

@@ -1,7 +1,7 @@
 ﻿using UnityEngine;
 using System.Collections;
 
-public class StateFlying : StateBase
+public class StateFlying : StateBaseEnemy
 {
     public float MinVelocity = 20.0f;
     public float MaxVelocity = 25.0f;

@@ -1,4 +1,5 @@
 ﻿using UnityEngine;
+using System;
 using System.Collections;
 
 public class HPScript : MonoBehaviour {
@@ -14,11 +15,11 @@ public class HPScript : MonoBehaviour {
 
     public GameObject BalloonsGraphics = null;
 
+    public Action<float> OnHPChanged;
+
 	// Use this for initialization
 	void Start ()
     {
-        CurrentHealthPoints = MaxHealthPoints;
-
         if (BalloonsGraphics)
         {
             Animator BalloonsAnimator = BalloonsGraphics.GetComponent<Animator>();
@@ -51,6 +52,9 @@ public class HPScript : MonoBehaviour {
 
         CurrentHealthPoints -= Damage;
         CurrentHealthPoints = Mathf.Clamp(CurrentHealthPoints, 0, MaxHealthPoints);
+
+        OnHPChanged(CurrentHealthPoints);
+
         StartDamageCooldown();
 
         if(BalloonsGraphics)
