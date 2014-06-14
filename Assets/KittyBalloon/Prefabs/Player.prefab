@@ -112,7 +112,7 @@ BoxCollider2D:
   m_Enabled: 1
   m_Material: {fileID: 0}
   m_IsTrigger: 0
-  m_Size: {x: .330000013, y: .330000013}
+  m_Size: {x: .319999993, y: .319999993}
   m_Center: {x: 0, y: 0}
 --- !u!95 &9500000
 Animator:
@@ -141,10 +141,10 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   facingRight: 1
   jump: 0
-  moveForce: 128
-  maxSpeed: .200000003
+  moveForce: 100
+  maxSpeed: .400000006
   jumpClips: []
-  jumpForce: 1000
+  jumpForce: 25
   taunts: []
   tauntProbability: 50
   tauntDelay: 1
