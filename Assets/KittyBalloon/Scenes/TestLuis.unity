@@ -230,7 +230,7 @@ Rigidbody2D:
   m_LinearDrag: 0
   m_AngularDrag: .0500000007
   m_GravityScale: 1
-  m_FixedAngle: 0
+  m_FixedAngle: 1
   m_IsKinematic: 0
   m_Interpolate: 0
   m_SleepingMode: 1
@@ -261,8 +261,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   facingRight: 1
   jump: 0
-  moveForce: 365
-  maxSpeed: 5
+  moveForce: 600
+  maxSpeed: 8
   jumpClips: []
   jumpForce: 1000
   taunts: []
@@ -336,6 +336,14 @@ Prefab:
     - target: {fileID: 400000, guid: 8c76d6b4430656542b17a61e4e7c5448, type: 2}
       propertyPath: m_LocalScale.y
       value: 5
+      objectReference: {fileID: 0}
+    - target: {fileID: 11400000, guid: 8c76d6b4430656542b17a61e4e7c5448, type: 2}
+      propertyPath: moveForce
+      value: 600
+      objectReference: {fileID: 0}
+    - target: {fileID: 11400000, guid: 8c76d6b4430656542b17a61e4e7c5448, type: 2}
+      propertyPath: maxSpeed
+      value: 8
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 8c76d6b4430656542b17a61e4e7c5448, type: 2}
@@ -434,7 +442,7 @@ SpriteRenderer:
   m_ScaleInLightmap: 1
   m_SortingLayerID: 2808579583
   m_SortingOrder: 0
-  m_Sprite: {fileID: 21300162, guid: de6824272a8bfee4fa7e6355dee9a70f, type: 3}
+  m_Sprite: {fileID: 21300116, guid: de6824272a8bfee4fa7e6355dee9a70f, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
 --- !u!1001 &1946082067
 Prefab:

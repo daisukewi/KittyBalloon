@@ -38,7 +38,7 @@ public class PlayerController : MonoBehaviour
         grounded = Physics2D.Linecast(transform.position, groundCheck.position, 1 << LayerMask.NameToLayer("Ground"));
 
         // If the jump button is pressed and the player is grounded then the player should jump.
-        if (Input.GetButtonDown("Jump") && grounded)
+        if (Input.GetButtonDown("Jump"))
             jump = true;
     }
 
@@ -55,12 +55,12 @@ public class PlayerController : MonoBehaviour
         }
 
         // If the player is changing direction (h has a different sign to velocity.x) or hasn't reached maxSpeed yet...
-        if (rigidbody2D && h * rigidbody2D.velocity.x < maxSpeed)
+        if (h * rigidbody2D.velocity.x < maxSpeed)
             // ... add a force to the player.
             rigidbody2D.AddForce(Vector2.right * h * moveForce);
 
         // If the player's horizontal velocity is greater than the maxSpeed...
-        if (rigidbody2D && Mathf.Abs(rigidbody2D.velocity.x) > maxSpeed)
+        if (Mathf.Abs(rigidbody2D.velocity.x) > maxSpeed)
             // ... set the player's velocity to the maxSpeed in the x axis.
             rigidbody2D.velocity = new Vector2(Mathf.Sign(rigidbody2D.velocity.x) * maxSpeed, rigidbody2D.velocity.y);
 
