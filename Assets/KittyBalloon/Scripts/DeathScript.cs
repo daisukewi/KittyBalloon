@@ -12,7 +12,6 @@ public class DeathScript : MonoBehaviour
             Colliders[i].isTrigger = true;
         }
 
-        Destroy(gameObject, TimeToDie);
         Debug.Log(name + " Died....");
     }
 }

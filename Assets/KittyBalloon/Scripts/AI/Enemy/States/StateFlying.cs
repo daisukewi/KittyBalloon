@@ -11,7 +11,7 @@ public class StateFlying : StateBase
     override protected void InitState()
     {
         base.InitState();
-        InvokeRepeating("ChangeDirection", 0.1f, 2.0f);
+        InvokeRepeating("ChangeDirection", 0.1f, 1.0f);
 
     }
 

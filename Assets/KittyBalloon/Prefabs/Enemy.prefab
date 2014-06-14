@@ -46,7 +46,12 @@ GameObject:
   - 114: {fileID: 11400000}
   - 114: {fileID: 11400004}
   - 58: {fileID: 5800000}
+  - 114: {fileID: 11400016}
+  - 114: {fileID: 11400014}
+  - 114: {fileID: 11400012}
+  - 114: {fileID: 11400010}
   - 114: {fileID: 11400006}
+  - 114: {fileID: 11400002}
   m_Layer: 0
   m_Name: Enemy
   m_TagString: Untagged
@@ -194,7 +199,7 @@ Animator:
   m_GameObject: {fileID: 100008}
   m_Enabled: 1
   m_Avatar: {fileID: 0}
-  m_Controller: {fileID: 9100000, guid: 9d09056deb253134b94a64da079bce85, type: 2}
+  m_Controller: {fileID: 9100000, guid: d5ea8c433a587fd4a87de05ee58764ea, type: 2}
   m_CullingMode: 0
   m_UpdateMode: 0
   m_ApplyRootMotion: 1
@@ -214,6 +219,17 @@ MonoBehaviour:
   CurrentHealthPoints: 2
   DamageCooldownDuration: 1
   BalloonsGraphics: {fileID: 100008}
+--- !u!114 &11400002
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 100004}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c617ec5724368b0499c68c5407ad1744, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!114 &11400004
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -233,9 +249,13 @@ MonoBehaviour:
   m_GameObject: {fileID: 100004}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: f46410591144cce4c8c5be8de6d96d2e, type: 3}
+  m_Script: {fileID: 11500000, guid: 5fab1b91c1a4b09429ccd34502a9b12e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  StateName: Flying
+  MinVelocity: 10
+  MaxVelocity: 18
+  Direction: {x: 0, y: 0}
 --- !u!114 &11400008
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -247,6 +267,56 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 368def712029de14089390ac504eb6df, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+--- !u!114 &11400010
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 100004}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: dc898526cae008b48bd2c1e21560822f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  StateName: Falling
+--- !u!114 &11400012
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 100004}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 583d6b231aaa38b438b441688c70c84e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  StateName: Dead
+--- !u!114 &11400014
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 100004}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5f79106706d263543a1fcb4273837dd7, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  StateName: Blowing
+  CanBlow: 1
+  BlowCooldown: 10
+--- !u!114 &11400016
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 100004}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d81660e758ddadb45b1632744331165b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  DefaultStateName: Blowing
 --- !u!212 &21200000
 SpriteRenderer:
   m_ObjectHideFlags: 1

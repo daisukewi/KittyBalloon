@@ -31,10 +31,15 @@ public class StateBlowing : StateBase
 
     void OnBlowFinished()
     {
+        
         StartBlowingCooldown();
-        if(CanGoToState("Flying"))
+
+        if(enabled)
         {
-            GoToState("Flying");
+            if (CanGoToState("Flying"))
+            {
+                GoToState("Flying");
+            }
         }
     }
 
