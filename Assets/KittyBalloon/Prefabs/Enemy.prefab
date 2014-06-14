@@ -10,6 +10,7 @@ GameObject:
   - 4: {fileID: 400000}
   - 212: {fileID: 21200000}
   - 95: {fileID: 9500000}
+  - 114: {fileID: 11400008}
   m_Layer: 0
   m_Name: Graphics
   m_TagString: Untagged
@@ -66,7 +67,7 @@ GameObject:
   - 61: {fileID: 6100004}
   m_Layer: 0
   m_Name: BalloonsGraphics
-  m_TagString: Untagged
+  m_TagString: Balloons
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -233,6 +234,17 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: f46410591144cce4c8c5be8de6d96d2e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!114 &11400008
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 100000}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 368def712029de14089390ac504eb6df, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
 --- !u!212 &21200000

@@ -349,7 +349,9 @@ GameObject:
   - 114: {fileID: 168152515}
   - 61: {fileID: 168152518}
   - 50: {fileID: 168152517}
-  m_Layer: 0
+  - 58: {fileID: 168152519}
+  - 114: {fileID: 168152520}
+  m_Layer: 10
   m_Name: Player
   m_TagString: Player
   m_Icon: {fileID: 0}
@@ -419,8 +421,32 @@ BoxCollider2D:
   m_Enabled: 1
   m_Material: {fileID: 0}
   m_IsTrigger: 0
-  m_Size: {x: .319999993, y: .319999993}
-  m_Center: {x: 0, y: 0}
+  m_Size: {x: .140000001, y: .140000001}
+  m_Center: {x: 0, y: -.0900000036}
+--- !u!58 &168152519
+CircleCollider2D:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 5800000, guid: 8c76d6b4430656542b17a61e4e7c5448,
+    type: 2}
+  m_PrefabInternal: {fileID: 1856829467}
+  m_GameObject: {fileID: 168152514}
+  m_Enabled: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Radius: .100000001
+  m_Center: {x: 0, y: .0599999987}
+--- !u!114 &168152520
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 11400002, guid: 8c76d6b4430656542b17a61e4e7c5448,
+    type: 2}
+  m_PrefabInternal: {fileID: 1856829467}
+  m_GameObject: {fileID: 168152514}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c617ec5724368b0499c68c5407ad1744, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &184134514
 GameObject:
   m_ObjectHideFlags: 0
@@ -458,7 +484,7 @@ GameObject:
   m_Component:
   - 4: {fileID: 220812389}
   - 61: {fileID: 220812390}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Ground1
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1092,7 +1118,7 @@ GameObject:
   m_Component:
   - 4: {fileID: 851887836}
   - 61: {fileID: 851887837}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Ground2
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1758,7 +1784,7 @@ GameObject:
   serializedVersion: 4
   m_Component:
   - 4: {fileID: 1390279334}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: groundCheck
   m_TagString: Untagged
   m_Icon: {fileID: -2065832391, guid: 0000000000000000d000000000000000, type: 0}
@@ -2793,7 +2819,7 @@ GameObject:
   - 212: {fileID: 1997488369}
   - 95: {fileID: 1997488368}
   - 114: {fileID: 1997488370}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: Graphics
   m_TagString: Untagged
   m_Icon: {fileID: 0}
