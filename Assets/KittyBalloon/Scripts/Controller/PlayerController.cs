@@ -12,6 +12,7 @@ public class PlayerController : MonoBehaviour
     public float moveForce = 365f;			// Amount of force added to move the player left and right when on ground.
     public float flightForce = 15f;         // Amount of force added to move the player in the air.
     public float maxSpeed = 5f;				// The fastest the player can travel in the x axis.
+    public float maxYSpeed = 5f;            // The fastest the player can fall or jump in the y axis.
     public AudioClip[] jumpClips;			// Array of clips for when the player jumps.
     public float jumpForce = 1000f;			// Amount of force added when the player jumps.
     public AudioClip[] taunts;				// Array of clips for when the player taunts.
@@ -83,8 +84,7 @@ public class PlayerController : MonoBehaviour
                 // ... add a force to the player.
                 rigidbody2D.AddForce(Vector2.right * h * flightForce);
         }
-
-        if (grounded)
+        else if (grounded)
         {
             // If the player is changing direction (h has a different sign to velocity.x) or hasn't reached maxSpeed yet...
             if (h * rigidbody2D.velocity.x < maxSpeed)
@@ -92,10 +92,19 @@ public class PlayerController : MonoBehaviour
                 rigidbody2D.AddForce(Vector2.right * h * moveForce);
         }
 
+        Vector2 velocity = rigidbody2D.velocity;
+
         // If the player's horizontal velocity is greater than the maxSpeed...
-        if (Mathf.Abs(rigidbody2D.velocity.x) > maxSpeed)
+        if (Mathf.Abs(velocity.x) > maxSpeed)
             // ... set the player's velocity to the maxSpeed in the x axis.
-            rigidbody2D.velocity = new Vector2(Mathf.Sign(rigidbody2D.velocity.x) * maxSpeed, rigidbody2D.velocity.y);
+            velocity.x = Mathf.Sign(velocity.x) * maxSpeed;
+
+        // If the player's vertical velocity is greater than the maxYSpeed...
+        if (Mathf.Abs(velocity.y) > maxYSpeed)
+            // ... set the player's velocity to the maxYSpeed in the y axis.
+            velocity.y = Mathf.Sign(velocity.y) * maxYSpeed;
+
+        rigidbody2D.velocity = velocity;
 
         // If the input is moving the player right and the player is facing left...
         if (h > 0 && !facingRight)

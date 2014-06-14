@@ -144,6 +144,7 @@ MonoBehaviour:
   moveForce: 40
   flightForce: 35
   maxSpeed: 1
+  maxYSpeed: 2
   jumpClips: []
   jumpForce: 35
   taunts: []
