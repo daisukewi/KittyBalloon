@@ -12,6 +12,8 @@ public class HPScript : MonoBehaviour {
 
     private bool TakeDamageCooldown = false;
 
+    public GameObject BalloonsGraphics = null;
+
 	// Use this for initialization
 	void Start ()
     {
@@ -41,6 +43,15 @@ public class HPScript : MonoBehaviour {
         CurrentHealthPoints -= Damage;
         CurrentHealthPoints = Mathf.Clamp(CurrentHealthPoints, 0, MaxHealthPoints);
         StartDamageCooldown();
+
+        if(BalloonsGraphics)
+        {
+            Animator BalloonsAnimator = BalloonsGraphics.GetComponent<Animator>();
+            if(BalloonsAnimator)
+            {
+                BalloonsAnimator.SetInteger("Balloons", (int)CurrentHealthPoints);
+            }
+        }
 
         if(CurrentHealthPoints <= 0)
         {
