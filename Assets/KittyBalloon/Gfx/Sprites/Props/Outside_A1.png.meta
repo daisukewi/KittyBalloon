@@ -49,7 +49,7 @@ TextureImporter:
         y: 352
         width: 32
         height: 32
-      alignment: 7
+      alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: Outside_A1_1
@@ -59,7 +59,7 @@ TextureImporter:
         y: 352
         width: 32
         height: 32
-      alignment: 7
+      alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: Outside_A1_2
@@ -69,7 +69,7 @@ TextureImporter:
         y: 352
         width: 32
         height: 32
-      alignment: 7
+      alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: Outside_A1_3
@@ -79,7 +79,7 @@ TextureImporter:
         y: 352
         width: 32
         height: 32
-      alignment: 7
+      alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: Outside_A1_4
@@ -89,7 +89,7 @@ TextureImporter:
         y: 352
         width: 32
         height: 32
-      alignment: 7
+      alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: Outside_A1_5
@@ -99,7 +99,7 @@ TextureImporter:
         y: 352
         width: 32
         height: 32
-      alignment: 7
+      alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: Outside_A1_6
@@ -109,7 +109,7 @@ TextureImporter:
         y: 352
         width: 32
         height: 32
-      alignment: 7
+      alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: Outside_A1_7
@@ -119,7 +119,7 @@ TextureImporter:
         y: 352
         width: 32
         height: 32
-      alignment: 7
+      alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: Outside_A1_8
@@ -129,7 +129,7 @@ TextureImporter:
         y: 352
         width: 32
         height: 32
-      alignment: 7
+      alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: Outside_A1_9
@@ -139,7 +139,7 @@ TextureImporter:
         y: 352
         width: 32
         height: 32
-      alignment: 7
+      alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: Outside_A1_10
@@ -149,7 +149,7 @@ TextureImporter:
         y: 352
         width: 32
         height: 32
-      alignment: 7
+      alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: Outside_A1_11
@@ -159,7 +159,7 @@ TextureImporter:
         y: 352
         width: 32
         height: 32
-      alignment: 7
+      alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: Outside_A1_12
@@ -169,7 +169,7 @@ TextureImporter:
         y: 352
         width: 32
         height: 32
-      alignment: 7
+      alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: Outside_A1_13
@@ -179,7 +179,7 @@ TextureImporter:
         y: 352
         width: 32
         height: 32
-      alignment: 7
+      alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: Outside_A1_14
@@ -189,7 +189,7 @@ TextureImporter:
         y: 352
         width: 32
         height: 32
-      alignment: 7
+      alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: Outside_A1_15
@@ -199,7 +199,7 @@ TextureImporter:
         y: 352
         width: 32
         height: 32
-      alignment: 7
+      alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: Outside_A1_16
@@ -209,7 +209,7 @@ TextureImporter:
         y: 320
         width: 32
         height: 32
-      alignment: 7
+      alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: Outside_A1_17
@@ -219,7 +219,7 @@ TextureImporter:
         y: 320
         width: 32
         height: 32
-      alignment: 7
+      alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: Outside_A1_18
@@ -229,7 +229,7 @@ TextureImporter:
         y: 320
         width: 32
         height: 32
-      alignment: 7
+      alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: Outside_A1_19
@@ -239,7 +239,7 @@ TextureImporter:
         y: 320
         width: 32
         height: 32
-      alignment: 7
+      alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: Outside_A1_20
@@ -249,7 +249,7 @@ TextureImporter:
         y: 320
         width: 32
         height: 32
-      alignment: 7
+      alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: Outside_A1_21
@@ -259,7 +259,7 @@ TextureImporter:
         y: 320
         width: 32
         height: 32
-      alignment: 7
+      alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: Outside_A1_22
@@ -269,7 +269,7 @@ TextureImporter:
         y: 320
         width: 32
         height: 32
-      alignment: 7
+      alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: Outside_A1_23
@@ -279,7 +279,7 @@ TextureImporter:
         y: 320
         width: 32
         height: 32
-      alignment: 7
+      alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: Outside_A1_24
@@ -289,7 +289,7 @@ TextureImporter:
         y: 320
         width: 32
         height: 32
-      alignment: 7
+      alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: Outside_A1_25
@@ -299,7 +299,7 @@ TextureImporter:
         y: 320
         width: 32
         height: 32
-      alignment: 7
+      alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: Outside_A1_26
@@ -309,7 +309,7 @@ TextureImporter:
         y: 320
         width: 32
         height: 32
-      alignment: 7
+      alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: Outside_A1_27
@@ -319,7 +319,7 @@ TextureImporter:
         y: 320
         width: 32
         height: 32
-      alignment: 7
+      alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: Outside_A1_28
@@ -329,7 +329,7 @@ TextureImporter:
         y: 320
         width: 32
         height: 32
-      alignment: 7
+      alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: Outside_A1_29
@@ -339,7 +339,7 @@ TextureImporter:
         y: 320
         width: 32
         height: 32
-      alignment: 7
+      alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: Outside_A1_30
@@ -349,7 +349,7 @@ TextureImporter:
         y: 320
         width: 32
         height: 32
-      alignment: 7
+      alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: Outside_A1_31
@@ -359,7 +359,7 @@ TextureImporter:
         y: 320
         width: 32
         height: 32
-      alignment: 7
+      alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: Outside_A1_32
@@ -369,7 +369,7 @@ TextureImporter:
         y: 288
         width: 32
         height: 32
-      alignment: 7
+      alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: Outside_A1_33
@@ -379,7 +379,7 @@ TextureImporter:
         y: 288
         width: 32
         height: 32
-      alignment: 7
+      alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: Outside_A1_34
@@ -389,7 +389,7 @@ TextureImporter:
         y: 288
         width: 32
         height: 32
-      alignment: 7
+      alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: Outside_A1_35
@@ -399,7 +399,7 @@ TextureImporter:
         y: 288
         width: 32
         height: 32
-      alignment: 7
+      alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: Outside_A1_36
@@ -409,7 +409,7 @@ TextureImporter:
         y: 288
         width: 32
         height: 32
-      alignment: 7
+      alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: Outside_A1_37
@@ -419,7 +419,7 @@ TextureImporter:
         y: 288
         width: 32
         height: 32
-      alignment: 7
+      alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: Outside_A1_38
@@ -429,7 +429,7 @@ TextureImporter:
         y: 288
         width: 32
         height: 32
-      alignment: 7
+      alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: Outside_A1_39
@@ -439,7 +439,7 @@ TextureImporter:
         y: 288
         width: 32
         height: 32
-      alignment: 7
+      alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: Outside_A1_40
@@ -449,7 +449,7 @@ TextureImporter:
         y: 288
         width: 32
         height: 32
-      alignment: 7
+      alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: Outside_A1_41
@@ -459,7 +459,7 @@ TextureImporter:
         y: 288
         width: 32
         height: 32
-      alignment: 7
+      alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: Outside_A1_42
@@ -469,7 +469,7 @@ TextureImporter:
         y: 288
         width: 32
         height: 32
-      alignment: 7
+      alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: Outside_A1_43
@@ -479,7 +479,7 @@ TextureImporter:
         y: 288
         width: 32
         height: 32
-      alignment: 7
+      alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: Outside_A1_44
@@ -489,7 +489,7 @@ TextureImporter:
         y: 288
         width: 32
         height: 32
-      alignment: 7
+      alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: Outside_A1_45
@@ -499,7 +499,7 @@ TextureImporter:
         y: 288
         width: 32
         height: 32
-      alignment: 7
+      alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: Outside_A1_46
@@ -509,7 +509,7 @@ TextureImporter:
         y: 288
         width: 32
         height: 32
-      alignment: 7
+      alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: Outside_A1_47
@@ -519,7 +519,7 @@ TextureImporter:
         y: 288
         width: 32
         height: 32
-      alignment: 7
+      alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: Outside_A1_48
@@ -529,7 +529,7 @@ TextureImporter:
         y: 256
         width: 32
         height: 32
-      alignment: 7
+      alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: Outside_A1_49
@@ -539,7 +539,7 @@ TextureImporter:
         y: 256
         width: 32
         height: 32
-      alignment: 7
+      alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: Outside_A1_50
@@ -549,7 +549,7 @@ TextureImporter:
         y: 256
         width: 32
         height: 32
-      alignment: 7
+      alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: Outside_A1_51
@@ -559,7 +559,7 @@ TextureImporter:
         y: 256
         width: 32
         height: 32
-      alignment: 7
+      alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: Outside_A1_52
@@ -569,7 +569,7 @@ TextureImporter:
         y: 256
         width: 32
         height: 32
-      alignment: 7
+      alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: Outside_A1_53
@@ -579,7 +579,7 @@ TextureImporter:
         y: 256
         width: 32
         height: 32
-      alignment: 7
+      alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: Outside_A1_54
@@ -589,7 +589,7 @@ TextureImporter:
         y: 256
         width: 32
         height: 32
-      alignment: 7
+      alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: Outside_A1_55
@@ -599,7 +599,7 @@ TextureImporter:
         y: 256
         width: 32
         height: 32
-      alignment: 7
+      alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: Outside_A1_56
@@ -609,7 +609,7 @@ TextureImporter:
         y: 256
         width: 32
         height: 32
-      alignment: 7
+      alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: Outside_A1_57
@@ -619,7 +619,7 @@ TextureImporter:
         y: 256
         width: 32
         height: 32
-      alignment: 7
+      alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: Outside_A1_58
@@ -629,7 +629,7 @@ TextureImporter:
         y: 256
         width: 32
         height: 32
-      alignment: 7
+      alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: Outside_A1_59
@@ -639,7 +639,7 @@ TextureImporter:
         y: 256
         width: 32
         height: 32
-      alignment: 7
+      alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: Outside_A1_60
@@ -649,7 +649,7 @@ TextureImporter:
         y: 256
         width: 32
         height: 32
-      alignment: 7
+      alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: Outside_A1_61
@@ -659,7 +659,7 @@ TextureImporter:
         y: 256
         width: 32
         height: 32
-      alignment: 7
+      alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: Outside_A1_62
@@ -669,7 +669,7 @@ TextureImporter:
         y: 256
         width: 32
         height: 32
-      alignment: 7
+      alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: Outside_A1_63
@@ -679,7 +679,7 @@ TextureImporter:
         y: 256
         width: 32
         height: 32
-      alignment: 7
+      alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: Outside_A1_64
@@ -689,7 +689,7 @@ TextureImporter:
         y: 224
         width: 32
         height: 32
-      alignment: 7
+      alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: Outside_A1_65
@@ -699,7 +699,7 @@ TextureImporter:
         y: 224
         width: 32
         height: 32
-      alignment: 7
+      alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: Outside_A1_66
@@ -709,7 +709,7 @@ TextureImporter:
         y: 224
         width: 32
         height: 32
-      alignment: 7
+      alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: Outside_A1_67
@@ -719,7 +719,7 @@ TextureImporter:
         y: 224
         width: 32
         height: 32
-      alignment: 7
+      alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: Outside_A1_68
@@ -729,7 +729,7 @@ TextureImporter:
         y: 224
         width: 32
         height: 32
-      alignment: 7
+      alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: Outside_A1_69
@@ -739,7 +739,7 @@ TextureImporter:
         y: 224
         width: 32
         height: 32
-      alignment: 7
+      alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: Outside_A1_70
@@ -749,18 +749,18 @@ TextureImporter:
         y: 224
         width: 32
         height: 32
-      alignment: 7
-      pivot: {x: 0, y: 0}
+      alignment: 0
+      pivot: {x: .5, y: .5}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: Outside_A1_71
       rect:
         serializedVersion: 2
-        x: 224
+        x: 225
         y: 224
         width: 32
         height: 32
-      alignment: 7
-      pivot: {x: 0, y: 0}
+      alignment: 0
+      pivot: {x: .5, y: .5}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: Outside_A1_72
       rect:
@@ -769,7 +769,7 @@ TextureImporter:
         y: 224
         width: 32
         height: 32
-      alignment: 7
+      alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: Outside_A1_73
@@ -779,7 +779,7 @@ TextureImporter:
         y: 224
         width: 32
         height: 32
-      alignment: 7
+      alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: Outside_A1_74
@@ -789,7 +789,7 @@ TextureImporter:
         y: 224
         width: 32
         height: 32
-      alignment: 7
+      alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: Outside_A1_75
@@ -799,7 +799,7 @@ TextureImporter:
         y: 224
         width: 32
         height: 32
-      alignment: 7
+      alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: Outside_A1_76
@@ -809,7 +809,7 @@ TextureImporter:
         y: 224
         width: 32
         height: 32
-      alignment: 7
+      alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: Outside_A1_77
@@ -819,7 +819,7 @@ TextureImporter:
         y: 224
         width: 32
         height: 32
-      alignment: 7
+      alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: Outside_A1_78
@@ -829,7 +829,7 @@ TextureImporter:
         y: 224
         width: 32
         height: 32
-      alignment: 7
+      alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: Outside_A1_79
@@ -839,7 +839,7 @@ TextureImporter:
         y: 224
         width: 32
         height: 32
-      alignment: 7
+      alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: Outside_A1_80
@@ -849,7 +849,7 @@ TextureImporter:
         y: 192
         width: 32
         height: 32
-      alignment: 7
+      alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: Outside_A1_81
@@ -859,7 +859,7 @@ TextureImporter:
         y: 192
         width: 32
         height: 32
-      alignment: 7
+      alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: Outside_A1_82
@@ -869,7 +869,7 @@ TextureImporter:
         y: 192
         width: 32
         height: 32
-      alignment: 7
+      alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: Outside_A1_83
@@ -879,7 +879,7 @@ TextureImporter:
         y: 192
         width: 32
         height: 32
-      alignment: 7
+      alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: Outside_A1_84
@@ -889,7 +889,7 @@ TextureImporter:
         y: 192
         width: 32
         height: 32
-      alignment: 7
+      alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: Outside_A1_85
@@ -899,7 +899,7 @@ TextureImporter:
         y: 192
         width: 32
         height: 32
-      alignment: 7
+      alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: Outside_A1_86
@@ -909,7 +909,7 @@ TextureImporter:
         y: 192
         width: 32
         height: 32
-      alignment: 7
+      alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: Outside_A1_87
@@ -919,8 +919,8 @@ TextureImporter:
         y: 192
         width: 32
         height: 32
-      alignment: 7
-      pivot: {x: 0, y: 0}
+      alignment: 0
+      pivot: {x: .5, y: .5}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: Outside_A1_88
       rect:
@@ -929,7 +929,7 @@ TextureImporter:
         y: 192
         width: 32
         height: 32
-      alignment: 7
+      alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: Outside_A1_89
@@ -939,7 +939,7 @@ TextureImporter:
         y: 192
         width: 32
         height: 32
-      alignment: 7
+      alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: Outside_A1_90
@@ -949,7 +949,7 @@ TextureImporter:
         y: 192
         width: 32
         height: 32
-      alignment: 7
+      alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: Outside_A1_91
@@ -959,7 +959,7 @@ TextureImporter:
         y: 192
         width: 32
         height: 32
-      alignment: 7
+      alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: Outside_A1_92
@@ -969,7 +969,7 @@ TextureImporter:
         y: 192
         width: 32
         height: 32
-      alignment: 7
+      alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: Outside_A1_93
@@ -979,7 +979,7 @@ TextureImporter:
         y: 192
         width: 32
         height: 32
-      alignment: 7
+      alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: Outside_A1_94
@@ -989,7 +989,7 @@ TextureImporter:
         y: 192
         width: 32
         height: 32
-      alignment: 7
+      alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: Outside_A1_95
@@ -999,7 +999,7 @@ TextureImporter:
         y: 192
         width: 32
         height: 32
-      alignment: 7
+      alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: Outside_A1_96
@@ -1009,7 +1009,7 @@ TextureImporter:
         y: 160
         width: 32
         height: 32
-      alignment: 7
+      alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: Outside_A1_97
@@ -1019,7 +1019,7 @@ TextureImporter:
         y: 160
         width: 32
         height: 32
-      alignment: 7
+      alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: Outside_A1_98
@@ -1029,7 +1029,7 @@ TextureImporter:
         y: 160
         width: 32
         height: 32
-      alignment: 7
+      alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: Outside_A1_99
@@ -1039,7 +1039,7 @@ TextureImporter:
         y: 160
         width: 32
         height: 32
-      alignment: 7
+      alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: Outside_A1_100
@@ -1049,7 +1049,7 @@ TextureImporter:
         y: 160
         width: 32
         height: 32
-      alignment: 7
+      alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: Outside_A1_101
@@ -1059,7 +1059,7 @@ TextureImporter:
         y: 160
         width: 32
         height: 32
-      alignment: 7
+      alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: Outside_A1_102
@@ -1069,7 +1069,7 @@ TextureImporter:
         y: 160
         width: 32
         height: 32
-      alignment: 7
+      alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: Outside_A1_103
@@ -1079,7 +1079,7 @@ TextureImporter:
         y: 160
         width: 32
         height: 32
-      alignment: 7
+      alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: Outside_A1_104
@@ -1089,7 +1089,7 @@ TextureImporter:
         y: 160
         width: 32
         height: 32
-      alignment: 7
+      alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: Outside_A1_105
@@ -1099,7 +1099,7 @@ TextureImporter:
         y: 160
         width: 32
         height: 32
-      alignment: 7
+      alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: Outside_A1_106
@@ -1109,7 +1109,7 @@ TextureImporter:
         y: 160
         width: 32
         height: 32
-      alignment: 7
+      alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: Outside_A1_107
@@ -1119,7 +1119,7 @@ TextureImporter:
         y: 160
         width: 32
         height: 32
-      alignment: 7
+      alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: Outside_A1_108
@@ -1129,7 +1129,7 @@ TextureImporter:
         y: 160
         width: 32
         height: 32
-      alignment: 7
+      alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: Outside_A1_109
@@ -1139,7 +1139,7 @@ TextureImporter:
         y: 160
         width: 32
         height: 32
-      alignment: 7
+      alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: Outside_A1_110
@@ -1149,7 +1149,7 @@ TextureImporter:
         y: 160
         width: 32
         height: 32
-      alignment: 7
+      alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: Outside_A1_111
@@ -1159,7 +1159,7 @@ TextureImporter:
         y: 160
         width: 32
         height: 32
-      alignment: 7
+      alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: Outside_A1_112
@@ -1169,7 +1169,7 @@ TextureImporter:
         y: 128
         width: 32
         height: 32
-      alignment: 7
+      alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: Outside_A1_113
@@ -1179,7 +1179,7 @@ TextureImporter:
         y: 128
         width: 32
         height: 32
-      alignment: 7
+      alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: Outside_A1_114
@@ -1189,7 +1189,7 @@ TextureImporter:
         y: 128
         width: 32
         height: 32
-      alignment: 7
+      alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: Outside_A1_115
@@ -1199,7 +1199,7 @@ TextureImporter:
         y: 128
         width: 32
         height: 32
-      alignment: 7
+      alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: Outside_A1_116
@@ -1209,7 +1209,7 @@ TextureImporter:
         y: 128
         width: 32
         height: 32
-      alignment: 7
+      alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: Outside_A1_117
@@ -1219,7 +1219,7 @@ TextureImporter:
         y: 128
         width: 32
         height: 32
-      alignment: 7
+      alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: Outside_A1_118
@@ -1229,7 +1229,7 @@ TextureImporter:
         y: 128
         width: 32
         height: 32
-      alignment: 7
+      alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: Outside_A1_119
@@ -1239,7 +1239,7 @@ TextureImporter:
         y: 128
         width: 32
         height: 32
-      alignment: 7
+      alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: Outside_A1_120
@@ -1249,7 +1249,7 @@ TextureImporter:
         y: 128
         width: 32
         height: 32
-      alignment: 7
+      alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: Outside_A1_121
@@ -1259,7 +1259,7 @@ TextureImporter:
         y: 128
         width: 32
         height: 32
-      alignment: 7
+      alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: Outside_A1_122
@@ -1269,7 +1269,7 @@ TextureImporter:
         y: 128
         width: 32
         height: 32
-      alignment: 7
+      alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: Outside_A1_123
@@ -1279,7 +1279,7 @@ TextureImporter:
         y: 128
         width: 32
         height: 32
-      alignment: 7
+      alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: Outside_A1_124
@@ -1289,7 +1289,7 @@ TextureImporter:
         y: 128
         width: 32
         height: 32
-      alignment: 7
+      alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: Outside_A1_125
@@ -1299,7 +1299,7 @@ TextureImporter:
         y: 128
         width: 32
         height: 32
-      alignment: 7
+      alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: Outside_A1_126
@@ -1309,7 +1309,7 @@ TextureImporter:
         y: 128
         width: 32
         height: 32
-      alignment: 7
+      alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: Outside_A1_127
@@ -1319,7 +1319,7 @@ TextureImporter:
         y: 128
         width: 32
         height: 32
-      alignment: 7
+      alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: Outside_A1_128
@@ -1329,7 +1329,7 @@ TextureImporter:
         y: 96
         width: 32
         height: 32
-      alignment: 7
+      alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: Outside_A1_129
@@ -1339,7 +1339,7 @@ TextureImporter:
         y: 96
         width: 32
         height: 32
-      alignment: 7
+      alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: Outside_A1_130
@@ -1349,7 +1349,7 @@ TextureImporter:
         y: 96
         width: 32
         height: 32
-      alignment: 7
+      alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: Outside_A1_131
@@ -1359,7 +1359,7 @@ TextureImporter:
         y: 96
         width: 32
         height: 32
-      alignment: 7
+      alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: Outside_A1_132
@@ -1369,7 +1369,7 @@ TextureImporter:
         y: 96
         width: 32
         height: 32
-      alignment: 7
+      alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: Outside_A1_133
@@ -1379,7 +1379,7 @@ TextureImporter:
         y: 96
         width: 32
         height: 32
-      alignment: 7
+      alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: Outside_A1_134
@@ -1389,7 +1389,7 @@ TextureImporter:
         y: 96
         width: 32
         height: 32
-      alignment: 7
+      alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: Outside_A1_135
@@ -1399,7 +1399,7 @@ TextureImporter:
         y: 96
         width: 32
         height: 32
-      alignment: 7
+      alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: Outside_A1_136
@@ -1409,7 +1409,7 @@ TextureImporter:
         y: 96
         width: 32
         height: 32
-      alignment: 7
+      alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: Outside_A1_137
@@ -1419,7 +1419,7 @@ TextureImporter:
         y: 96
         width: 32
         height: 32
-      alignment: 7
+      alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: Outside_A1_138
@@ -1429,7 +1429,7 @@ TextureImporter:
         y: 96
         width: 32
         height: 32
-      alignment: 7
+      alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: Outside_A1_139
@@ -1439,7 +1439,7 @@ TextureImporter:
         y: 96
         width: 32
         height: 32
-      alignment: 7
+      alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: Outside_A1_140
@@ -1449,7 +1449,7 @@ TextureImporter:
         y: 96
         width: 32
         height: 32
-      alignment: 7
+      alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: Outside_A1_141
@@ -1459,7 +1459,7 @@ TextureImporter:
         y: 96
         width: 32
         height: 32
-      alignment: 7
+      alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: Outside_A1_142
@@ -1469,7 +1469,7 @@ TextureImporter:
         y: 96
         width: 32
         height: 32
-      alignment: 7
+      alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: Outside_A1_143
@@ -1479,7 +1479,7 @@ TextureImporter:
         y: 96
         width: 32
         height: 32
-      alignment: 7
+      alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: Outside_A1_144
@@ -1489,7 +1489,7 @@ TextureImporter:
         y: 64
         width: 32
         height: 32
-      alignment: 7
+      alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: Outside_A1_145
@@ -1499,7 +1499,7 @@ TextureImporter:
         y: 64
         width: 32
         height: 32
-      alignment: 7
+      alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: Outside_A1_146
@@ -1509,7 +1509,7 @@ TextureImporter:
         y: 64
         width: 32
         height: 32
-      alignment: 7
+      alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: Outside_A1_147
@@ -1519,7 +1519,7 @@ TextureImporter:
         y: 64
         width: 32
         height: 32
-      alignment: 7
+      alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: Outside_A1_148
@@ -1529,7 +1529,7 @@ TextureImporter:
         y: 64
         width: 32
         height: 32
-      alignment: 7
+      alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: Outside_A1_149
@@ -1539,7 +1539,7 @@ TextureImporter:
         y: 64
         width: 32
         height: 32
-      alignment: 7
+      alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: Outside_A1_150
@@ -1549,7 +1549,7 @@ TextureImporter:
         y: 64
         width: 32
         height: 32
-      alignment: 7
+      alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: Outside_A1_151
@@ -1559,7 +1559,7 @@ TextureImporter:
         y: 64
         width: 32
         height: 32
-      alignment: 7
+      alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: Outside_A1_152
@@ -1569,7 +1569,7 @@ TextureImporter:
         y: 64
         width: 32
         height: 32
-      alignment: 7
+      alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: Outside_A1_153
@@ -1579,7 +1579,7 @@ TextureImporter:
         y: 64
         width: 32
         height: 32
-      alignment: 7
+      alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: Outside_A1_154
@@ -1589,7 +1589,7 @@ TextureImporter:
         y: 64
         width: 32
         height: 32
-      alignment: 7
+      alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: Outside_A1_155
@@ -1599,7 +1599,7 @@ TextureImporter:
         y: 64
         width: 32
         height: 32
-      alignment: 7
+      alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: Outside_A1_156
@@ -1609,7 +1609,7 @@ TextureImporter:
         y: 64
         width: 32
         height: 32
-      alignment: 7
+      alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: Outside_A1_157
@@ -1619,7 +1619,7 @@ TextureImporter:
         y: 64
         width: 32
         height: 32
-      alignment: 7
+      alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: Outside_A1_158
@@ -1629,7 +1629,7 @@ TextureImporter:
         y: 64
         width: 32
         height: 32
-      alignment: 7
+      alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: Outside_A1_159
@@ -1639,7 +1639,7 @@ TextureImporter:
         y: 64
         width: 32
         height: 32
-      alignment: 7
+      alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: Outside_A1_160
@@ -1649,7 +1649,7 @@ TextureImporter:
         y: 32
         width: 32
         height: 32
-      alignment: 7
+      alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: Outside_A1_161
@@ -1659,7 +1659,7 @@ TextureImporter:
         y: 32
         width: 32
         height: 32
-      alignment: 7
+      alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: Outside_A1_162
@@ -1669,7 +1669,7 @@ TextureImporter:
         y: 32
         width: 32
         height: 32
-      alignment: 7
+      alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: Outside_A1_163
@@ -1679,7 +1679,7 @@ TextureImporter:
         y: 32
         width: 32
         height: 32
-      alignment: 7
+      alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: Outside_A1_164
@@ -1689,7 +1689,7 @@ TextureImporter:
         y: 32
         width: 32
         height: 32
-      alignment: 7
+      alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: Outside_A1_165
@@ -1699,7 +1699,7 @@ TextureImporter:
         y: 32
         width: 32
         height: 32
-      alignment: 7
+      alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: Outside_A1_166
@@ -1709,7 +1709,7 @@ TextureImporter:
         y: 32
         width: 32
         height: 32
-      alignment: 7
+      alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: Outside_A1_167
@@ -1719,7 +1719,7 @@ TextureImporter:
         y: 32
         width: 32
         height: 32
-      alignment: 7
+      alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: Outside_A1_168
@@ -1729,7 +1729,7 @@ TextureImporter:
         y: 32
         width: 32
         height: 32
-      alignment: 7
+      alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: Outside_A1_169
@@ -1739,7 +1739,7 @@ TextureImporter:
         y: 32
         width: 32
         height: 32
-      alignment: 7
+      alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: Outside_A1_170
@@ -1749,7 +1749,7 @@ TextureImporter:
         y: 32
         width: 32
         height: 32
-      alignment: 7
+      alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: Outside_A1_171
@@ -1759,7 +1759,7 @@ TextureImporter:
         y: 32
         width: 32
         height: 32
-      alignment: 7
+      alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: Outside_A1_172
@@ -1769,7 +1769,7 @@ TextureImporter:
         y: 32
         width: 32
         height: 32
-      alignment: 7
+      alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: Outside_A1_173
@@ -1779,7 +1779,7 @@ TextureImporter:
         y: 32
         width: 32
         height: 32
-      alignment: 7
+      alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: Outside_A1_174
@@ -1789,7 +1789,7 @@ TextureImporter:
         y: 32
         width: 32
         height: 32
-      alignment: 7
+      alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: Outside_A1_175
@@ -1799,7 +1799,7 @@ TextureImporter:
         y: 32
         width: 32
         height: 32
-      alignment: 7
+      alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: Outside_A1_176
@@ -1809,7 +1809,7 @@ TextureImporter:
         y: 0
         width: 32
         height: 32
-      alignment: 7
+      alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: Outside_A1_177
@@ -1819,7 +1819,7 @@ TextureImporter:
         y: 0
         width: 32
         height: 32
-      alignment: 7
+      alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: Outside_A1_178
@@ -1829,7 +1829,7 @@ TextureImporter:
         y: 0
         width: 32
         height: 32
-      alignment: 7
+      alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: Outside_A1_179
@@ -1839,7 +1839,7 @@ TextureImporter:
         y: 0
         width: 32
         height: 32
-      alignment: 7
+      alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: Outside_A1_180
@@ -1849,7 +1849,7 @@ TextureImporter:
         y: 0
         width: 32
         height: 32
-      alignment: 7
+      alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: Outside_A1_181
@@ -1859,7 +1859,7 @@ TextureImporter:
         y: 0
         width: 32
         height: 32
-      alignment: 7
+      alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: Outside_A1_182
@@ -1869,7 +1869,7 @@ TextureImporter:
         y: 0
         width: 32
         height: 32
-      alignment: 7
+      alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: Outside_A1_183
@@ -1879,7 +1879,7 @@ TextureImporter:
         y: 0
         width: 32
         height: 32
-      alignment: 7
+      alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: Outside_A1_184
@@ -1889,7 +1889,7 @@ TextureImporter:
         y: 0
         width: 32
         height: 32
-      alignment: 7
+      alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: Outside_A1_185
@@ -1899,7 +1899,7 @@ TextureImporter:
         y: 0
         width: 32
         height: 32
-      alignment: 7
+      alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: Outside_A1_186
@@ -1909,7 +1909,7 @@ TextureImporter:
         y: 0
         width: 32
         height: 32
-      alignment: 7
+      alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: Outside_A1_187
@@ -1919,7 +1919,7 @@ TextureImporter:
         y: 0
         width: 32
         height: 32
-      alignment: 7
+      alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: Outside_A1_188
@@ -1929,7 +1929,7 @@ TextureImporter:
         y: 0
         width: 32
         height: 32
-      alignment: 7
+      alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: Outside_A1_189
@@ -1939,7 +1939,7 @@ TextureImporter:
         y: 0
         width: 32
         height: 32
-      alignment: 7
+      alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: Outside_A1_190
@@ -1949,7 +1949,7 @@ TextureImporter:
         y: 0
         width: 32
         height: 32
-      alignment: 7
+      alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: Outside_A1_191
@@ -1959,7 +1959,7 @@ TextureImporter:
         y: 0
         width: 32
         height: 32
-      alignment: 7
+      alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
   spritePackingTag: 
