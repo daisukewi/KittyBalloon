@@ -41,3 +41,19 @@ TagManager:
     userID: 0
     uniqueID: 0
     locked: 0
+  - name: Background
+    userID: 4
+    uniqueID: 3551236189
+    locked: 0
+  - name: Environment
+    userID: 3
+    uniqueID: 3571089799
+    locked: 0
+  - name: Enemies
+    userID: 2
+    uniqueID: 1037091407
+    locked: 0
+  - name: Player
+    userID: 1
+    uniqueID: 2808579583
+    locked: 0
