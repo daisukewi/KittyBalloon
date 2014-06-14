@@ -18,6 +18,15 @@ public class HPScript : MonoBehaviour {
 	void Start ()
     {
         CurrentHealthPoints = MaxHealthPoints;
+
+        if (BalloonsGraphics)
+        {
+            Animator BalloonsAnimator = BalloonsGraphics.GetComponent<Animator>();
+            if (BalloonsAnimator)
+            {
+                BalloonsAnimator.SetInteger("Balloons", (int)CurrentHealthPoints);
+            }
+        }
 	}
 	
     public bool CanTakeDamage()
