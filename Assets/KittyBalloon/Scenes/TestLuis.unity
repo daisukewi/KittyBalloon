@@ -561,6 +561,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   StateName: Flying
+  MinVelocity: 15
+  MaxVelocity: 25
+  Direction: {x: 0, y: 0}
 --- !u!58 &1476474041
 CircleCollider2D:
   m_ObjectHideFlags: 0
