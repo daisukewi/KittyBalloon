@@ -40,10 +40,11 @@ public class HPScript : MonoBehaviour {
 
         CurrentHealthPoints -= Damage;
         CurrentHealthPoints = Mathf.Clamp(CurrentHealthPoints, 0, MaxHealthPoints);
+        StartDamageCooldown();
 
         if(CurrentHealthPoints <= 0)
         {
-            gameObject.BroadcastMessage("Die", SendMessageOptions.DontRequireReceiver);
+            gameObject.BroadcastMessage("Die", 5.0f, SendMessageOptions.DontRequireReceiver);
         }
     }
 

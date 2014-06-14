@@ -15,7 +15,7 @@ public class BalloonsScript : MonoBehaviour {
 
     void OnTriggerEnter2D(Collider2D other)
     {
-        if (other.tag == "Player" && gameObject && gameObject.transform.parent)
+        if (gameObject && gameObject.transform.parent)
         {
             gameObject.transform.parent.SendMessage("TakeDamage", 1.0f);
         }
