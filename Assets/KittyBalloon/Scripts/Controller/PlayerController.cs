@@ -19,6 +19,7 @@ public class PlayerController : MonoBehaviour
     public float tauntProbability = 50f;	// Chance of a taunt happening.
     public float tauntDelay = 1f;			// Delay for when the taunt should happen.
 
+    private PlayerInputManager.InputTable input;
 
     private int tauntIndex;					// The index of the taunts array indicating the most recent taunt.
     private Transform groundCheck;			// A position marking where to check if the player is grounded.
@@ -28,6 +29,8 @@ public class PlayerController : MonoBehaviour
 
     void Awake()
     {
+        input = new PlayerInputManager.InputTable();
+
         // Setting up references.
         groundCheck = transform.Find("groundCheck");
         Transform Graphics = transform.Find("Graphics");
@@ -35,6 +38,17 @@ public class PlayerController : MonoBehaviour
         {
             anim = Graphics.GetComponent<Animator>();
         }
+
+        PlayerInputManager myInputManager = GetComponent<PlayerInputManager>();
+        if (myInputManager)
+        {
+            myInputManager.OnInputChanged += OnInputChanged;
+        }
+    }
+
+    private void OnInputChanged(PlayerInputManager.InputTable newInput)
+    {
+        input = newInput;
     }
 
 
@@ -44,7 +58,7 @@ public class PlayerController : MonoBehaviour
         grounded = Physics2D.Linecast(transform.position, groundCheck.position, 1 << LayerMask.NameToLayer("Ground"));
 
         // If the jump button is pressed and the player is grounded then the player should jump.
-        if (Input.GetButtonDown("Jump"))
+        if (Input.GetButtonDown("Jump") || input.Jump)
             jump = true;
     }
 
@@ -54,6 +68,15 @@ public class PlayerController : MonoBehaviour
         // Cache the horizontal input.
         float h = Input.GetAxis("Horizontal");
         h = (h >= .0f) ? ((h > .0f) ? 1.0f : .0f) : -1.0f;
+
+        if (input.Left)
+        {
+            h = -1.0f;
+        }
+        else if (input.Right)
+        {
+            h = 1.0f;
+        }
 
         // The Speed animator parameter is set to the absolute value of the horizontal input.
         if (anim)
