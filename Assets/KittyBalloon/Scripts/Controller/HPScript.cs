@@ -54,7 +54,11 @@ public class HPScript : MonoBehaviour {
         CurrentHealthPoints = Mathf.Clamp(CurrentHealthPoints, 0, MaxHealthPoints);
         
         HPChanged();
-        OnHPChanged(CurrentHealthPoints);
+
+        if (OnHPChanged != null)
+        {
+            OnHPChanged(CurrentHealthPoints);
+        }
 
         StartDamageCooldown();
     }
