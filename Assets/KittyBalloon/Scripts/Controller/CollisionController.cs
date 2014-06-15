@@ -32,7 +32,7 @@ public class CollisionController: MonoBehaviour {
 
         Vector2 collNormal = ((ContactPoint2D)coll.contacts.GetValue(0)).normal;
 
-        if (collNormal.y < 1.0f)
+        if (collNormal.y < 0.9f)
         {
             Vector2 reflection = coll.relativeVelocity - 2 * Vector2.Dot(coll.relativeVelocity, collNormal) * collNormal;
             rigidbody2D.velocity = reflection.normalized;
