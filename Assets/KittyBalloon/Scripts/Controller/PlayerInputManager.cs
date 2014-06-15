@@ -30,7 +30,7 @@ public class PlayerInputManager : MonoBehaviour {
     private static TInputType GetInputType(Vector2 position)
     {
         Debug.Log((new Vector2(position.x / (float)Screen.width, position.y / (float)Screen.height)).ToString());
-        if ((position.y / (float)Screen.height) < 0.125f)
+        if ((position.y / (float)Screen.height) < 0.2f)
         {
             if ((position.x / (float)Screen.width) < 0.125f)
             {

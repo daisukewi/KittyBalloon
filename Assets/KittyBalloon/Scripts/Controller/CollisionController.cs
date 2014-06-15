@@ -42,7 +42,7 @@ public class CollisionController: MonoBehaviour {
         if (collNormal.y < 0.9f)
         {
             Vector2 reflection = coll.relativeVelocity - 2 * Vector2.Dot(coll.relativeVelocity, collNormal) * collNormal;
-            rigidbody2D.velocity = reflection.normalized;
+            rigidbody2D.velocity = reflection / 2.0f;
         }
     }
 }
