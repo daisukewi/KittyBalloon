@@ -15,7 +15,7 @@ public class ScreenKiller : MonoBehaviour {
 
     void OnTriggerEnter2D(Collider2D other)
     {
-        other.transform.SendMessage("TakeDamage", 2.0f);
+        other.transform.SendMessage("TakeDamage", 2.0f, SendMessageOptions.DontRequireReceiver);
         Debug.Log("Im dead");
     }
 }

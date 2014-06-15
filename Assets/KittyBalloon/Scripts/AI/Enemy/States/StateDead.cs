@@ -23,6 +23,11 @@ public class StateDead : StateBaseEnemy
             BalloonsGraphics.collider2D.isTrigger = true;
         }
 
+        if (AnimController)
+        {
+            AnimController.Play("Die");
+        }
+
         Destroy(gameObject, TimeToDie);
     }
 }
