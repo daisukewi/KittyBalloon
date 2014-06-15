@@ -12,11 +12,25 @@ public class StateBlowing : StateBaseEnemy
         {
             StartBlowing();
         }
+        else
+        {
+            Invoke("CheckCanBlow", 0.5f);
+        }
     }
 
-    public override void EndState()
+    void CheckCanBlow()
     {
-        //Debug.Log ("StateBase EndState");
+        if(enabled)
+        {
+            if (CanBlow)
+            {
+                StartBlowing();
+            }
+            else
+            {
+                Invoke("CheckCanBlow", 0.5f);
+            }
+        }
     }
 
     void FixedUpdate()
@@ -26,6 +40,11 @@ public class StateBlowing : StateBaseEnemy
 
     void StartBlowing()
     {
+        if (AnimController)
+        {
+            AnimController.Play("Blowing");
+        }
+
         Invoke("OnBlowFinished", 3.0f);
     }
 
@@ -38,6 +57,7 @@ public class StateBlowing : StateBaseEnemy
         {
             if (CanGoToState("Flying"))
             {
+                SendMessage("Heal", 1.0f);
                 GoToState("Flying");
             }
         }

@@ -30,7 +30,11 @@ public class PlayerController : MonoBehaviour
     {
         // Setting up references.
         groundCheck = transform.Find("groundCheck");
-        anim = GetComponent<Animator>();
+        Transform Graphics = transform.Find("Graphics");
+        if (Graphics)
+        {
+            anim = Graphics.GetComponent<Animator>();
+        }
     }
 
 
@@ -54,7 +58,7 @@ public class PlayerController : MonoBehaviour
         // The Speed animator parameter is set to the absolute value of the horizontal input.
         if (anim)
         {
-            anim.SetFloat("Speed", Mathf.Abs(h));
+            //anim.SetFloat("Speed", Mathf.Abs(h));
         }
 
         // If the player should jump...
@@ -63,7 +67,7 @@ public class PlayerController : MonoBehaviour
             // Set the Jump animator trigger parameter.
             if (anim)
             {
-                anim.SetTrigger("Jump");
+                anim.SetTrigger("Fly");
             }
 
             // Play a random jump audio clip.

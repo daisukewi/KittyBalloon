@@ -12,7 +12,21 @@ public class StateFlying : StateBaseEnemy
     {
         base.InitState();
         InvokeRepeating("ChangeDirection", 0.1f, 1.0f);
+    }
+    public override void BeginState()
+    {
+        if (AnimController)
+        {
+            AnimController.SetBool("Flying", true);
+        }
+    }
 
+    public override void EndState()
+    {
+        if (AnimController)
+        {
+            AnimController.SetBool("Flying", false);
+        }
     }
 
 	// Update is called once per frame

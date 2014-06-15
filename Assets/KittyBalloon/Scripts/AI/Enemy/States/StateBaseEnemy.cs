@@ -3,7 +3,9 @@ using System.Collections;
 
 public class StateBaseEnemy : StateBase
 {
-
+    public Animator AnimController;
+    public Animator AnimBalloonController;
+        
     override protected void InitState()
     {
         base.InitState();

@@ -2,7 +2,8 @@
 using System.Collections;
 
 public class CollisionController: MonoBehaviour {
-
+    
+    public Animator AnimController;
     Transform GetParent()
     {
         return gameObject.transform.parent;
@@ -21,6 +22,11 @@ public class CollisionController: MonoBehaviour {
     {
         if (coll.collider.tag == "Balloons")
         {
+            if (AnimController)
+            {
+                AnimController.Play("HitSomeone");
+            }
+
             coll.collider.transform.parent.SendMessage("TakeDamage", 1.0f);
         }
 

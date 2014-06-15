@@ -52,24 +52,11 @@ public class HPScript : MonoBehaviour {
 
         CurrentHealthPoints -= Damage;
         CurrentHealthPoints = Mathf.Clamp(CurrentHealthPoints, 0, MaxHealthPoints);
-
+        
+        HPChanged();
         OnHPChanged(CurrentHealthPoints);
 
         StartDamageCooldown();
-
-        if(BalloonsGraphics)
-        {
-            Animator BalloonsAnimator = BalloonsGraphics.GetComponent<Animator>();
-            if(BalloonsAnimator)
-            {
-                BalloonsAnimator.SetInteger("Balloons", (int)CurrentHealthPoints);
-            }
-        }
-
-        if(CurrentHealthPoints <= 0)
-        {
-            gameObject.BroadcastMessage("Die", 5.0f, SendMessageOptions.DontRequireReceiver);
-        }
     }
 
     void StartDamageCooldown()
@@ -82,4 +69,33 @@ public class HPScript : MonoBehaviour {
     {
         TakeDamageCooldown = false;
     }
+
+    public void Heal(float Heal)
+    {
+        Debug.Log(name + " Heal " + Heal + " Damage");
+
+        CurrentHealthPoints += Heal;
+        CurrentHealthPoints = Mathf.Clamp(CurrentHealthPoints, 0, MaxHealthPoints);
+
+        HPChanged();
+        OnHPChanged(CurrentHealthPoints);
+    }
+
+    public void HPChanged()
+    {
+        if (CurrentHealthPoints <= 0)
+        {
+            gameObject.BroadcastMessage("Die", 5.0f, SendMessageOptions.DontRequireReceiver);
+        }
+
+        if (BalloonsGraphics)
+        {
+            Animator BalloonsAnimator = BalloonsGraphics.GetComponent<Animator>();
+            if (BalloonsAnimator)
+            {
+                BalloonsAnimator.SetInteger("Balloons", (int)CurrentHealthPoints);
+            }
+        }
+    }
+
 }
