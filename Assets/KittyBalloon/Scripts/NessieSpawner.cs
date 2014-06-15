@@ -9,21 +9,23 @@ public class NessieSpawner : MonoBehaviour {
     private bool bSpawnNessie = false;
     private bool NessieCooldown = false;
     private Vector2 SpawnPoint;
+    private GameObject Target;
 
 	// Update is called once per frame
 	void Update () {
 
         if (bSpawnNessie && CanSpawnNessie())
         {
-            bSpawnNessie = false;
             Internal_SpawnNessie();
         }
-	
+
+        bSpawnNessie = false;
 	}
 
     void OnTriggerEnter2D(Collider2D other)
     {
         SpawnPoint = other.transform.position;
+        Target = other.gameObject;
         SpawnNessie();
     }
 
@@ -39,9 +41,14 @@ public class NessieSpawner : MonoBehaviour {
 
     void Internal_SpawnNessie()
     {
-        //if(Nessie)
+        if(Nessie)
         {
+            Vector3 Spawn = new Vector3(SpawnPoint.x, transform.position.y, 0.0f);
             Debug.Log("SpawnNessie " + SpawnPoint);
+            GameObject.Instantiate(Nessie, Spawn, transform.rotation);
+
+            Target.SendMessage("TakeDamage", 10.0f, SendMessageOptions.DontRequireReceiver);
+
             StartNessieCooldown();
         }
     }
@@ -56,4 +63,5 @@ public class NessieSpawner : MonoBehaviour {
     {
         NessieCooldown = false;
     }
+
 }
