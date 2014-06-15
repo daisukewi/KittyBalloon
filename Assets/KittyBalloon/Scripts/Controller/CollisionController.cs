@@ -22,12 +22,19 @@ public class CollisionController: MonoBehaviour {
     {
         if (coll.collider.tag == "Balloons")
         {
-            if (AnimController)
+            if (coll.gameObject.GetTeam() == gameObject.GetTeam())
             {
-                AnimController.Play("HitSomeone");
+                
             }
+            else
+            {
+                if (AnimController)
+                {
+                    AnimController.Play("HitSomeone");
+                }
 
-            coll.collider.transform.parent.SendMessage("TakeDamage", 1.0f);
+                coll.collider.transform.parent.SendMessage("TakeDamage", 1.0f);
+            }
         }
 
         Vector2 collNormal = ((ContactPoint2D)coll.contacts.GetValue(0)).normal;
