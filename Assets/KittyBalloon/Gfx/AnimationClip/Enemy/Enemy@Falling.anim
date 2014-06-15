@@ -5,7 +5,7 @@ AnimationClip:
   m_ObjectHideFlags: 0
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
-  m_Name: Enemy@Idle
+  m_Name: Enemy@Falling
   serializedVersion: 4
   m_AnimationType: 2
   m_Compressed: 0
@@ -18,11 +18,11 @@ AnimationClip:
   m_PPtrCurves:
   - curve:
     - time: -0
-      value: {fileID: 21300000, guid: 9b5241e92e54334448b4c3ebf0cec152, type: 3}
+      value: {fileID: 21300002, guid: 9b5241e92e54334448b4c3ebf0cec152, type: 3}
     - time: .200000003
-      value: {fileID: 21300000, guid: 9b5241e92e54334448b4c3ebf0cec152, type: 3}
+      value: {fileID: 21300002, guid: 9b5241e92e54334448b4c3ebf0cec152, type: 3}
     - time: .400000006
-      value: {fileID: 21300000, guid: 9b5241e92e54334448b4c3ebf0cec152, type: 3}
+      value: {fileID: 21300002, guid: 9b5241e92e54334448b4c3ebf0cec152, type: 3}
     attribute: m_Sprite
     path: 
     classID: 212
@@ -41,9 +41,9 @@ AnimationClip:
       customType: 23
       isPPtrCurve: 1
     pptrCurveMapping:
-    - {fileID: 21300000, guid: 9b5241e92e54334448b4c3ebf0cec152, type: 3}
-    - {fileID: 21300000, guid: 9b5241e92e54334448b4c3ebf0cec152, type: 3}
-    - {fileID: 21300000, guid: 9b5241e92e54334448b4c3ebf0cec152, type: 3}
+    - {fileID: 21300002, guid: 9b5241e92e54334448b4c3ebf0cec152, type: 3}
+    - {fileID: 21300002, guid: 9b5241e92e54334448b4c3ebf0cec152, type: 3}
+    - {fileID: 21300002, guid: 9b5241e92e54334448b4c3ebf0cec152, type: 3}
   m_AnimationClipSettings:
     serializedVersion: 2
     m_StartTime: 0

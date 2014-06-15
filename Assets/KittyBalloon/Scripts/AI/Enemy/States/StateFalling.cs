@@ -13,6 +13,14 @@ public class StateFalling : StateBaseEnemy
         groundCheck = transform.Find("groundCheck");
     }
 
+    public override void BeginState()
+    {
+        if (AnimController)
+        {
+            AnimController.Play("Falling");
+        }
+    }
+
 	// Update is called once per frame
 	void FixedUpdate ()
     {
