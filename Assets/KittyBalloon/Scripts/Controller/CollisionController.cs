@@ -2,7 +2,10 @@
 using System.Collections;
 
 public class CollisionController: MonoBehaviour {
-    
+
+    public float Bounciness = 1.5f;
+    public float GroundNormal = 0.9f;
+
     public Animator AnimController;
     Transform GetParent()
     {
@@ -39,10 +42,10 @@ public class CollisionController: MonoBehaviour {
 
         Vector2 collNormal = ((ContactPoint2D)coll.contacts.GetValue(0)).normal;
 
-        if (collNormal.y < 0.9f)
+        if (collNormal.y < GroundNormal)
         {
             Vector2 reflection = coll.relativeVelocity - 2 * Vector2.Dot(coll.relativeVelocity, collNormal) * collNormal;
-            rigidbody2D.velocity = reflection / 2.0f;
+            rigidbody2D.velocity = reflection / Bounciness;
         }
     }
 }

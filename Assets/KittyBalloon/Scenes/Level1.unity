@@ -288,6 +288,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 6b1b78025287ece41ab8efd630c82d1a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  ButtonHeightRel: .200000003
+  ButtonWidthRel: .125
 --- !u!114 &715153400
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -329,6 +331,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c617ec5724368b0499c68c5407ad1744, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  Bounciness: 1.5
+  GroundNormal: .899999976
   AnimController: {fileID: 942719351}
 --- !u!58 &715153403
 CircleCollider2D:
@@ -465,7 +469,7 @@ Transform:
   m_PrefabInternal: {fileID: 126199313}
   m_GameObject: {fileID: 897021036}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: .140000001, z: 0}
+  m_LocalPosition: {x: 0, y: -.349999994, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 715153398}
@@ -806,7 +810,7 @@ BoxCollider2D:
   m_Material: {fileID: 0}
   m_IsTrigger: 0
   m_Size: {x: 1, y: 20}
-  m_Center: {x: 15, y: 0}
+  m_Center: {x: 13, y: 0}
 --- !u!61 &1787040101
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -818,7 +822,7 @@ BoxCollider2D:
   m_Material: {fileID: 0}
   m_IsTrigger: 0
   m_Size: {x: 1, y: 20}
-  m_Center: {x: -15, y: 0}
+  m_Center: {x: -13, y: 0}
 --- !u!61 &1787040102
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -830,7 +834,7 @@ BoxCollider2D:
   m_Material: {fileID: 0}
   m_IsTrigger: 0
   m_Size: {x: 30, y: 1}
-  m_Center: {x: 0, y: -5.5}
+  m_Center: {x: 0, y: -7}
 --- !u!61 &1787040103
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -842,7 +846,7 @@ BoxCollider2D:
   m_Material: {fileID: 0}
   m_IsTrigger: 0
   m_Size: {x: 30, y: 1}
-  m_Center: {x: 0, y: 5.5}
+  m_Center: {x: 0, y: 7}
 --- !u!4 &1787040104
 Transform:
   m_ObjectHideFlags: 0

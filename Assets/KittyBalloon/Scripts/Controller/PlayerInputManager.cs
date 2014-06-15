@@ -23,20 +23,23 @@ public class PlayerInputManager : MonoBehaviour {
         Jump
     }
 
+    public float ButtonHeightRel = 0.2f;
+    public float ButtonWidthRel = 0.125f;
+
     public Action<InputTable> OnInputChanged;
 
     private InputTable _inputTable = new InputTable();
 
-    private static TInputType GetInputType(Vector2 position)
+    private TInputType GetInputType(Vector2 position)
     {
         Debug.Log((new Vector2(position.x / (float)Screen.width, position.y / (float)Screen.height)).ToString());
-        if ((position.y / (float)Screen.height) < 0.2f)
+        if ((position.y / (float)Screen.height) < ButtonHeightRel)
         {
-            if ((position.x / (float)Screen.width) < 0.125f)
+            if ((position.x / (float)Screen.width) < ButtonWidthRel)
             {
                 return TInputType.Left;
             }
-            else if ((position.x / (float)Screen.width) < 0.25f)
+            else if ((position.x / (float)Screen.width) < ButtonWidthRel * 2)
             {
                 return TInputType.Right;
             }
