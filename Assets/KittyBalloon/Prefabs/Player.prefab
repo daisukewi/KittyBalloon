@@ -81,7 +81,7 @@ Transform:
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 100000}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalPosition: {x: -2.28340721, y: 2.55444098, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 400002}
@@ -171,7 +171,7 @@ BoxCollider2D:
   m_Enabled: 1
   m_Material: {fileID: 0}
   m_IsTrigger: 0
-  m_Size: {x: 1.09000003, y: 1.36000001}
+  m_Size: {x: .5, y: 1.36000001}
   m_Center: {x: 0, y: 1.50999999}
 --- !u!95 &9500000
 Animator:
@@ -234,6 +234,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c617ec5724368b0499c68c5407ad1744, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  Bounciness: 1.5
+  GroundNormal: .899999976
   AnimController: {fileID: 9500000}
 --- !u!114 &11400004
 MonoBehaviour:
@@ -284,6 +286,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 6b1b78025287ece41ab8efd630c82d1a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  ButtonHeightRel: .200000003
+  ButtonWidthRel: .125
 --- !u!212 &21200000
 SpriteRenderer:
   m_ObjectHideFlags: 1
