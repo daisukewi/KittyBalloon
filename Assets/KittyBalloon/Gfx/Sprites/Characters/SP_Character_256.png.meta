@@ -35,6 +35,7 @@ TextureImporter:
   spriteMeshType: 1
   alignment: 0
   spritePivot: {x: .5, y: .5}
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
   spritePixelsToUnits: 100
   alphaIsTransparency: 1
   textureType: 8
@@ -50,6 +51,7 @@ TextureImporter:
         height: 256
       alignment: 0
       pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
     - name: SP_Character_256_1
       rect:
         serializedVersion: 2
@@ -59,6 +61,7 @@ TextureImporter:
         height: 256
       alignment: 0
       pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
     - name: SP_Character_256_2
       rect:
         serializedVersion: 2
@@ -68,6 +71,7 @@ TextureImporter:
         height: 256
       alignment: 0
       pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
     - name: SP_Character_256_3
       rect:
         serializedVersion: 2
@@ -77,6 +81,7 @@ TextureImporter:
         height: 256
       alignment: 0
       pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
     - name: SP_Character_256_4
       rect:
         serializedVersion: 2
@@ -86,6 +91,7 @@ TextureImporter:
         height: 256
       alignment: 0
       pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
     - name: SP_Character_256_5
       rect:
         serializedVersion: 2
@@ -95,6 +101,7 @@ TextureImporter:
         height: 256
       alignment: 0
       pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
     - name: SP_Character_256_6
       rect:
         serializedVersion: 2
@@ -104,6 +111,7 @@ TextureImporter:
         height: 256
       alignment: 0
       pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
     - name: SP_Character_256_7
       rect:
         serializedVersion: 2
@@ -113,6 +121,7 @@ TextureImporter:
         height: 256
       alignment: 0
       pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
     - name: SP_Character_256_8
       rect:
         serializedVersion: 2
@@ -122,6 +131,7 @@ TextureImporter:
         height: 256
       alignment: 0
       pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
     - name: SP_Character_256_9
       rect:
         serializedVersion: 2
@@ -131,6 +141,7 @@ TextureImporter:
         height: 256
       alignment: 0
       pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
     - name: SP_Character_256_10
       rect:
         serializedVersion: 2
@@ -140,6 +151,7 @@ TextureImporter:
         height: 256
       alignment: 9
       pivot: {x: .492000014, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
     - name: SP_Character_256_11
       rect:
         serializedVersion: 2
@@ -149,6 +161,7 @@ TextureImporter:
         height: 256
       alignment: 0
       pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
     - name: SP_Character_256_12
       rect:
         serializedVersion: 2
@@ -158,6 +171,7 @@ TextureImporter:
         height: 256
       alignment: 0
       pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
     - name: SP_Character_256_13
       rect:
         serializedVersion: 2
@@ -167,6 +181,7 @@ TextureImporter:
         height: 256
       alignment: 0
       pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
     - name: SP_Character_256_14
       rect:
         serializedVersion: 2
@@ -176,6 +191,7 @@ TextureImporter:
         height: 256
       alignment: 0
       pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
     - name: SP_Character_256_15
       rect:
         serializedVersion: 2
@@ -185,6 +201,7 @@ TextureImporter:
         height: 256
       alignment: 0
       pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
     - name: SP_Character_256_16
       rect:
         serializedVersion: 2
@@ -194,6 +211,7 @@ TextureImporter:
         height: 256
       alignment: 0
       pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
     - name: SP_Character_256_17
       rect:
         serializedVersion: 2
@@ -203,6 +221,7 @@ TextureImporter:
         height: 256
       alignment: 0
       pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
     - name: SP_Character_256_18
       rect:
         serializedVersion: 2
@@ -212,6 +231,7 @@ TextureImporter:
         height: 256
       alignment: 0
       pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
     - name: SP_Character_256_19
       rect:
         serializedVersion: 2
@@ -221,6 +241,7 @@ TextureImporter:
         height: 256
       alignment: 0
       pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
     - name: SP_Character_256_20
       rect:
         serializedVersion: 2
@@ -230,6 +251,7 @@ TextureImporter:
         height: 256
       alignment: 0
       pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
     - name: SP_Character_256_21
       rect:
         serializedVersion: 2
@@ -237,8 +259,9 @@ TextureImporter:
         y: 512
         width: 256
         height: 256
-      alignment: 0
-      pivot: {x: .5, y: .5}
+      alignment: 9
+      pivot: {x: .495000005, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
     - name: SP_Character_256_22
       rect:
         serializedVersion: 2
@@ -248,6 +271,7 @@ TextureImporter:
         height: 256
       alignment: 0
       pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
     - name: SP_Character_256_23
       rect:
         serializedVersion: 2
@@ -257,6 +281,7 @@ TextureImporter:
         height: 256
       alignment: 0
       pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
     - name: SP_Character_256_24
       rect:
         serializedVersion: 2
@@ -266,6 +291,7 @@ TextureImporter:
         height: 256
       alignment: 0
       pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
     - name: SP_Character_256_25
       rect:
         serializedVersion: 2
@@ -273,8 +299,9 @@ TextureImporter:
         y: 512
         width: 256
         height: 256
-      alignment: 0
-      pivot: {x: .5, y: .5}
+      alignment: 9
+      pivot: {x: .495999992, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
     - name: SP_Character_256_26
       rect:
         serializedVersion: 2
@@ -284,6 +311,7 @@ TextureImporter:
         height: 256
       alignment: 0
       pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
     - name: SP_Character_256_27
       rect:
         serializedVersion: 2
@@ -293,6 +321,7 @@ TextureImporter:
         height: 256
       alignment: 0
       pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
     - name: SP_Character_256_28
       rect:
         serializedVersion: 2
@@ -300,8 +329,9 @@ TextureImporter:
         y: 256
         width: 256
         height: 256
-      alignment: 9
-      pivot: {x: .456968248, y: .413936734}
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
     - name: SP_Character_256_29
       rect:
         serializedVersion: 2
@@ -309,8 +339,9 @@ TextureImporter:
         y: 256
         width: 256
         height: 256
-      alignment: 9
-      pivot: {x: .47234726, y: .399315953}
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
     - name: SP_Character_256_30
       rect:
         serializedVersion: 2
@@ -318,8 +349,9 @@ TextureImporter:
         y: 256
         width: 256
         height: 256
-      alignment: 9
-      pivot: {x: .467726231, y: .413937092}
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
     - name: SP_Character_256_31
       rect:
         serializedVersion: 2
@@ -327,8 +359,9 @@ TextureImporter:
         y: 256
         width: 256
         height: 256
-      alignment: 9
-      pivot: {x: .471589327, y: .398558259}
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
     - name: SP_Character_256_32
       rect:
         serializedVersion: 2
@@ -336,8 +369,9 @@ TextureImporter:
         y: 256
         width: 256
         height: 256
-      alignment: 9
-      pivot: {x: .456968784, y: .403179526}
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
     - name: SP_Character_256_33
       rect:
         serializedVersion: 2
@@ -345,8 +379,9 @@ TextureImporter:
         y: 256
         width: 256
         height: 256
-      alignment: 9
-      pivot: {x: .462347507, y: .413936734}
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
     - name: SP_Character_256_34
       rect:
         serializedVersion: 2
@@ -355,25 +390,28 @@ TextureImporter:
         width: 256
         height: 256
       alignment: 9
-      pivot: {x: .476969242, y: .418558836}
+      pivot: {x: .50999999, y: .49000001}
+      border: {x: 0, y: 0, z: 0, w: 0}
     - name: SP_Character_256_35
       rect:
         serializedVersion: 2
-        x: 1792
+        x: 1794
         y: 256
-        width: 256
-        height: 256
-      alignment: 9
-      pivot: {x: .456969261, y: .408558488}
-    - name: SP_Character_256_36
-      rect:
-        serializedVersion: 2
-        x: 2049
-        y: 257
         width: 256
         height: 256
       alignment: 0
       pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: SP_Character_256_36
+      rect:
+        serializedVersion: 2
+        x: 2049
+        y: 258
+        width: 256
+        height: 256
+      alignment: 9
+      pivot: {x: .492000014, y: .492000014}
+      border: {x: 0, y: 0, z: 0, w: 0}
     - name: SP_Character_256_37
       rect:
         serializedVersion: 2
@@ -381,8 +419,9 @@ TextureImporter:
         y: 256
         width: 256
         height: 256
-      alignment: 0
-      pivot: {x: .5, y: .5}
+      alignment: 9
+      pivot: {x: .504999995, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
     - name: SP_Character_256_38
       rect:
         serializedVersion: 2
@@ -392,6 +431,7 @@ TextureImporter:
         height: 256
       alignment: 0
       pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
     - name: SP_Character_256_39
       rect:
         serializedVersion: 2
@@ -401,6 +441,7 @@ TextureImporter:
         height: 256
       alignment: 9
       pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
     - name: SP_Character_256_40
       rect:
         serializedVersion: 2
@@ -409,7 +450,8 @@ TextureImporter:
         width: 256
         height: 256
       alignment: 9
-      pivot: {x: .50999999, y: .5}
+      pivot: {x: .513999999, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
     - name: SP_Character_256_41
       rect:
         serializedVersion: 2
@@ -419,6 +461,7 @@ TextureImporter:
         height: 256
       alignment: 9
       pivot: {x: .50999999, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
     - name: SP_Character_256_42
       rect:
         serializedVersion: 2
@@ -426,8 +469,9 @@ TextureImporter:
         y: 0
         width: 256
         height: 256
-      alignment: 0
-      pivot: {x: .5, y: .5}
+      alignment: 9
+      pivot: {x: .503000021, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
     - name: SP_Character_256_43
       rect:
         serializedVersion: 2
@@ -437,6 +481,7 @@ TextureImporter:
         height: 256
       alignment: 9
       pivot: {x: .460000008, y: .49000001}
+      border: {x: 0, y: 0, z: 0, w: 0}
     - name: SP_Character_256_44
       rect:
         serializedVersion: 2
@@ -444,8 +489,9 @@ TextureImporter:
         y: 0
         width: 256
         height: 256
-      alignment: 0
-      pivot: {x: .5, y: .5}
+      alignment: 9
+      pivot: {x: .503000021, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
     - name: SP_Character_256_45
       rect:
         serializedVersion: 2
@@ -453,7 +499,8 @@ TextureImporter:
         y: 0
         width: 256
         height: 256
-      alignment: 0
-      pivot: {x: .5, y: .5}
+      alignment: 9
+      pivot: {x: .503000021, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
   spritePackingTag: 
   userData: 
