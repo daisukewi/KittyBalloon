@@ -28,11 +28,11 @@ public class ScrollScreenController : MonoBehaviour {
 
     void OnTriggerEnter2D(Collider2D other)
     {
-        Debug.Log(other.collider.tag);
-        if (other.collider.tag == "DieHard")
+        GameObject Target = other.transform.parent ? other.transform.parent.gameObject : other.gameObject;
+        if (Target.tag == "DieHard")
         {
             transform.parent.BroadcastMessage("TakeDamage", 2.0f);
-            Debug.Log("Im dead");
+            Debug.Log(gameObject + " dead");
         }
     }
 }

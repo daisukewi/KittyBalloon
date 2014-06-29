@@ -25,7 +25,7 @@ public class NessieSpawner : MonoBehaviour {
     void OnTriggerEnter2D(Collider2D other)
     {
         SpawnPoint = other.transform.position;
-        Target = other.gameObject;
+        Target = other.transform.parent ? other.transform.parent.gameObject : other.gameObject;
         SpawnNessie();
     }
 
@@ -44,7 +44,7 @@ public class NessieSpawner : MonoBehaviour {
         if(Nessie)
         {
             Vector3 Spawn = new Vector3(SpawnPoint.x, transform.position.y, 0.0f);
-            Debug.Log("SpawnNessie " + SpawnPoint);
+            Debug.Log("SpawnNessie to eat " + Target + " " + SpawnPoint);
             GameObject.Instantiate(Nessie, Spawn, transform.rotation);
 
             Target.SendMessage("TakeDamage", 10.0f, SendMessageOptions.DontRequireReceiver);

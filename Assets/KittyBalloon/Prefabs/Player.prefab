@@ -9,9 +9,7 @@ GameObject:
   m_Component:
   - 4: {fileID: 400000}
   - 114: {fileID: 11400000}
-  - 61: {fileID: 6100000}
   - 50: {fileID: 5000000}
-  - 58: {fileID: 5800000}
   - 114: {fileID: 11400002}
   - 114: {fileID: 11400006}
   - 114: {fileID: 11400008}
@@ -34,6 +32,8 @@ GameObject:
   - 212: {fileID: 21200000}
   - 95: {fileID: 9500000}
   - 114: {fileID: 11400004}
+  - 61: {fileID: 6100004}
+  - 58: {fileID: 5800002}
   m_Layer: 10
   m_Name: Graphics
   m_TagString: Untagged
@@ -81,7 +81,7 @@ Transform:
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 100000}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -2.28340721, y: 2.55444098, z: 0}
+  m_LocalPosition: {x: -2.18712234, y: .749103427, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 400002}
@@ -140,28 +140,17 @@ Rigidbody2D:
   m_Interpolate: 0
   m_SleepingMode: 1
   m_CollisionDetection: 0
---- !u!58 &5800000
+--- !u!58 &5800002
 CircleCollider2D:
   m_ObjectHideFlags: 1
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
-  m_GameObject: {fileID: 100000}
+  m_GameObject: {fileID: 100002}
   m_Enabled: 1
   m_Material: {fileID: 0}
   m_IsTrigger: 0
   m_Radius: .400000006
-  m_Center: {x: 0, y: .449999988}
---- !u!61 &6100000
-BoxCollider2D:
-  m_ObjectHideFlags: 1
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 100100000}
-  m_GameObject: {fileID: 100000}
-  m_Enabled: 1
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_Size: {x: .310000002, y: .569999993}
-  m_Center: {x: 0, y: -.25}
+  m_Center: {x: .0900000036, y: .379999995}
 --- !u!61 &6100002
 BoxCollider2D:
   m_ObjectHideFlags: 1
@@ -173,6 +162,17 @@ BoxCollider2D:
   m_IsTrigger: 0
   m_Size: {x: .5, y: 1.36000001}
   m_Center: {x: 0, y: 1.50999999}
+--- !u!61 &6100004
+BoxCollider2D:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 100002}
+  m_Enabled: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Size: {x: .340000004, y: .670000017}
+  m_Center: {x: -.0299999993, y: -.180000007}
 --- !u!95 &9500000
 Animator:
   serializedVersion: 3
@@ -182,7 +182,7 @@ Animator:
   m_GameObject: {fileID: 100002}
   m_Enabled: 1
   m_Avatar: {fileID: 0}
-  m_Controller: {fileID: 9100000, guid: 44ba1ed4ef94bb248b81eb3879429da5, type: 2}
+  m_Controller: {fileID: 9100000, guid: afbb8788ff3ccc34f962f3d0215fb7b6, type: 2}
   m_CullingMode: 0
   m_UpdateMode: 0
   m_ApplyRootMotion: 1
@@ -214,12 +214,13 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   facingRight: 1
   jump: 0
+  Death: 0
   moveForce: 40
   flightForce: 50
   maxSpeed: 3
   maxYSpeed: 4
   jumpClips: []
-  jumpForce: 60
+  jumpForce: 80
   taunts: []
   tauntProbability: 50
   tauntDelay: 1

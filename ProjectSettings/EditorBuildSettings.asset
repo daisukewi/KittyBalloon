@@ -9,3 +9,5 @@ EditorBuildSettings:
     path: Assets/SplashScreen/Scenes/SplashScreen.unity
   - enabled: 1
     path: Assets/KittyBalloon/Scenes/Level1.unity
+  - enabled: 1
+    path: Assets/KittyBalloon/Scenes/Fail.unity

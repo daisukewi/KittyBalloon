@@ -1,15 +1,15 @@
 ﻿using UnityEngine;
+using System;
 using System.Collections;
 
 public class StateDead : StateBaseEnemy
 {
-	// Update is called once per frame
-	void Update () {
-	
-	}
+    public Action<GameObject> OnDie;
 
     public void Die(float TimeToDie)
     {
+        OnDie(gameObject);
+
         Debug.Log("StateDead " + name + " Died....");
 
         if(CanGoToState(StateName))
@@ -25,7 +25,7 @@ public class StateDead : StateBaseEnemy
 
         if (AnimController)
         {
-            AnimController.Play("Die");
+            AnimController.SetTrigger("OnDie");
         }
 
         Destroy(gameObject, TimeToDie);

@@ -8,6 +8,7 @@ public class PlayerController : MonoBehaviour
     [HideInInspector]
     public bool jump = false;				// Condition for whether the player should jump.
 
+    public bool Death = false;				// Condition for whether the player is dead.
 
     public float moveForce = 365f;			// Amount of force added to move the player left and right when on ground.
     public float flightForce = 15f;         // Amount of force added to move the player in the air.
@@ -65,6 +66,11 @@ public class PlayerController : MonoBehaviour
 
     void FixedUpdate()
     {
+        if (Death)
+        {
+            return;
+        }
+            
         // Cache the horizontal input.
         float h = Input.GetAxis("Horizontal");
         h = (h >= .0f) ? ((h > .0f) ? 1.0f : .0f) : -1.0f;
@@ -90,7 +96,7 @@ public class PlayerController : MonoBehaviour
             // Set the Jump animator trigger parameter.
             if (anim)
             {
-                anim.SetTrigger("Fly");
+                anim.SetTrigger("OnJump");
             }
 
             // Play a random jump audio clip.
@@ -156,40 +162,13 @@ public class PlayerController : MonoBehaviour
     }
 
 
-    public IEnumerator Taunt()
+    public void Die()
     {
-        // Check the random chance of taunting.
-        float tauntChance = Random.Range(0f, 100f);
-        if (tauntChance > tauntProbability)
+        Death = true;
+
+        if (anim)
         {
-            // Wait for tauntDelay number of seconds.
-            yield return new WaitForSeconds(tauntDelay);
-
-            // If there is no clip currently playing.
-            if (!audio.isPlaying)
-            {
-                // Choose a random, but different taunt.
-                tauntIndex = TauntRandom();
-
-                // Play the new taunt.
-                audio.clip = taunts[tauntIndex];
-                audio.Play();
-            }
+            anim.SetTrigger("OnDie");
         }
-    }
-
-
-    int TauntRandom()
-    {
-        // Choose a random index of the taunts array.
-        int i = Random.Range(0, taunts.Length);
-
-        // If it's the same as the previous taunt...
-        if (i == tauntIndex)
-            // ... try another random taunt.
-            return TauntRandom();
-        else
-            // Otherwise return this index.
-            return i;
     }
 }

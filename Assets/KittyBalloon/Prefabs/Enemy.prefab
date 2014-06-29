@@ -11,6 +11,7 @@ GameObject:
   - 212: {fileID: 21200000}
   - 95: {fileID: 9500000}
   - 114: {fileID: 11400008}
+  - 61: {fileID: 6100000}
   m_Layer: 0
   m_Name: Graphics
   m_TagString: Untagged
@@ -51,10 +52,9 @@ GameObject:
   - 114: {fileID: 11400006}
   - 114: {fileID: 11400002}
   - 114: {fileID: 11400020}
-  - 60: {fileID: 6000000}
   m_Layer: 0
   m_Name: Enemy
-  m_TagString: Untagged
+  m_TagString: Enemy
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -143,24 +143,17 @@ Rigidbody2D:
   m_Interpolate: 0
   m_SleepingMode: 1
   m_CollisionDetection: 0
---- !u!60 &6000000
-PolygonCollider2D:
+--- !u!61 &6100000
+BoxCollider2D:
   m_ObjectHideFlags: 1
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
-  m_GameObject: {fileID: 100004}
+  m_GameObject: {fileID: 100000}
   m_Enabled: 1
   m_Material: {fileID: 0}
   m_IsTrigger: 0
-  m_Poly:
-    m_Paths:
-    - - {x: -.224120855, y: .518139839}
-      - {x: .561447144, y: .619319916}
-      - {x: .223141432, y: .13885498}
-      - {x: .548182607, y: -.0531811714}
-      - {x: .19941783, y: -.242036819}
-      - {x: -.213253975, y: -.253170967}
-      - {x: -.918955088, y: -.12742281}
+  m_Size: {x: 1.25999999, y: .449999988}
+  m_Center: {x: 0, y: 0}
 --- !u!61 &6100004
 BoxCollider2D:
   m_ObjectHideFlags: 1
@@ -181,7 +174,7 @@ Animator:
   m_GameObject: {fileID: 100000}
   m_Enabled: 1
   m_Avatar: {fileID: 0}
-  m_Controller: {fileID: 9100000, guid: fb0ed72331dfde749b291fa5a90c50bd, type: 2}
+  m_Controller: {fileID: 9100000, guid: 77654e005b99a7a4193fb59583075ad3, type: 2}
   m_CullingMode: 0
   m_UpdateMode: 0
   m_ApplyRootMotion: 1

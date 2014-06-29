@@ -137,7 +137,7 @@ Transition:
   m_TransitionOffset: 0
   m_Conditions:
   - m_ConditionMode: 5
-    m_ConditionEvent: OnFlyStart
+    m_ConditionEvent: c
     m_EventTreshold: 0
     m_ExitTime: 1
   m_Atomic: 1
@@ -184,7 +184,7 @@ State:
   m_ObjectHideFlags: 3
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
-  m_Name: StartLand
+  m_Name: EndLand
   m_Speed: 1
   m_CycleOffset: 0
   m_Motions:
