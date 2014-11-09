@@ -42,7 +42,7 @@ public class StateBlowing : StateBaseEnemy
     {
         if (AnimController)
         {
-            AnimController.Play("Blowing");
+            AnimController.SetTrigger("OnLand");
         }
 
         Invoke("OnBlowFinished", 3.0f);

@@ -33,7 +33,7 @@ public class CollisionController: MonoBehaviour {
             {
                 if (AnimController)
                 {
-                    AnimController.Play("HitSomeone");
+                    AnimController.SetTrigger("Onbeat");
                 }
 
                 coll.collider.transform.parent.SendMessage("TakeDamage", 1.0f);

@@ -20,8 +20,8 @@ TextureImporter:
   grayScaleToAlpha: 0
   generateCubemap: 0
   seamlessCubemap: 0
-  textureFormat: -1
-  maxTextureSize: 1024
+  textureFormat: -3
+  maxTextureSize: 4096
   textureSettings:
     filterMode: -1
     aniso: 1
@@ -46,7 +46,7 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 0
-        y: 1792
+        y: 1024
         width: 256
         height: 256
       alignment: 0
@@ -55,8 +55,8 @@ TextureImporter:
     - name: SP_Character_256_1
       rect:
         serializedVersion: 2
-        x: 0
-        y: 1536
+        x: 256
+        y: 1024
         width: 256
         height: 256
       alignment: 0
@@ -65,8 +65,8 @@ TextureImporter:
     - name: SP_Character_256_2
       rect:
         serializedVersion: 2
-        x: 0
-        y: 1280
+        x: 512
+        y: 1024
         width: 256
         height: 256
       alignment: 0
@@ -75,8 +75,8 @@ TextureImporter:
     - name: SP_Character_256_3
       rect:
         serializedVersion: 2
-        x: 256
-        y: 1280
+        x: 768
+        y: 1024
         width: 256
         height: 256
       alignment: 0
@@ -85,7 +85,7 @@ TextureImporter:
     - name: SP_Character_256_4
       rect:
         serializedVersion: 2
-        x: 0
+        x: 1024
         y: 1024
         width: 256
         height: 256
@@ -95,14 +95,134 @@ TextureImporter:
     - name: SP_Character_256_5
       rect:
         serializedVersion: 2
-        x: 0
-        y: 768
+        x: 1280
+        y: 1024
         width: 256
         height: 256
       alignment: 0
       pivot: {x: .5, y: .5}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: SP_Character_256_6
+      rect:
+        serializedVersion: 2
+        x: 1536
+        y: 1024
+        width: 256
+        height: 256
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: SP_Character_256_7
+      rect:
+        serializedVersion: 2
+        x: 1792
+        y: 1024
+        width: 256
+        height: 256
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: SP_Character_256_8
+      rect:
+        serializedVersion: 2
+        x: 2048
+        y: 1024
+        width: 256
+        height: 256
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: SP_Character_256_9
+      rect:
+        serializedVersion: 2
+        x: 2304
+        y: 1024
+        width: 256
+        height: 256
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: SP_Character_256_10
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 768
+        width: 256
+        height: 256
+      alignment: 9
+      pivot: {x: .492000014, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: SP_Character_256_11
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 768
+        width: 256
+        height: 256
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: SP_Character_256_12
+      rect:
+        serializedVersion: 2
+        x: 512
+        y: 768
+        width: 256
+        height: 256
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: SP_Character_256_13
+      rect:
+        serializedVersion: 2
+        x: 768
+        y: 768
+        width: 256
+        height: 256
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: SP_Character_256_14
+      rect:
+        serializedVersion: 2
+        x: 1024
+        y: 768
+        width: 256
+        height: 256
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: SP_Character_256_15
+      rect:
+        serializedVersion: 2
+        x: 1280
+        y: 768
+        width: 256
+        height: 256
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: SP_Character_256_16
+      rect:
+        serializedVersion: 2
+        x: 1536
+        y: 768
+        width: 256
+        height: 256
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: SP_Character_256_17
+      rect:
+        serializedVersion: 2
+        x: 1792
+        y: 768
+        width: 256
+        height: 256
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: SP_Character_256_18
       rect:
         serializedVersion: 2
         x: 0
@@ -112,7 +232,97 @@ TextureImporter:
       alignment: 0
       pivot: {x: .5, y: .5}
       border: {x: 0, y: 0, z: 0, w: 0}
-    - name: SP_Character_256_7
+    - name: SP_Character_256_19
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 512
+        width: 256
+        height: 256
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: SP_Character_256_20
+      rect:
+        serializedVersion: 2
+        x: 512
+        y: 512
+        width: 256
+        height: 256
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: SP_Character_256_21
+      rect:
+        serializedVersion: 2
+        x: 768
+        y: 512
+        width: 256
+        height: 256
+      alignment: 9
+      pivot: {x: .495000005, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: SP_Character_256_22
+      rect:
+        serializedVersion: 2
+        x: 1024
+        y: 512
+        width: 256
+        height: 256
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: SP_Character_256_23
+      rect:
+        serializedVersion: 2
+        x: 1280
+        y: 512
+        width: 256
+        height: 256
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: SP_Character_256_24
+      rect:
+        serializedVersion: 2
+        x: 1536
+        y: 512
+        width: 256
+        height: 256
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: SP_Character_256_25
+      rect:
+        serializedVersion: 2
+        x: 1792
+        y: 512
+        width: 256
+        height: 256
+      alignment: 9
+      pivot: {x: .495999992, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: SP_Character_256_26
+      rect:
+        serializedVersion: 2
+        x: 2048
+        y: 512
+        width: 256
+        height: 256
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: SP_Character_256_27
+      rect:
+        serializedVersion: 2
+        x: 2304
+        y: 512
+        width: 256
+        height: 256
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: SP_Character_256_28
       rect:
         serializedVersion: 2
         x: 0
@@ -121,6 +331,176 @@ TextureImporter:
         height: 256
       alignment: 0
       pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: SP_Character_256_29
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 256
+        width: 256
+        height: 256
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: SP_Character_256_30
+      rect:
+        serializedVersion: 2
+        x: 512
+        y: 256
+        width: 256
+        height: 256
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: SP_Character_256_31
+      rect:
+        serializedVersion: 2
+        x: 768
+        y: 256
+        width: 256
+        height: 256
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: SP_Character_256_32
+      rect:
+        serializedVersion: 2
+        x: 1024
+        y: 256
+        width: 256
+        height: 256
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: SP_Character_256_33
+      rect:
+        serializedVersion: 2
+        x: 1280
+        y: 256
+        width: 256
+        height: 256
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: SP_Character_256_34
+      rect:
+        serializedVersion: 2
+        x: 1533
+        y: 258
+        width: 256
+        height: 256
+      alignment: 9
+      pivot: {x: .50999999, y: .49000001}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: SP_Character_256_35
+      rect:
+        serializedVersion: 2
+        x: 1794
+        y: 256
+        width: 256
+        height: 256
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: SP_Character_256_36
+      rect:
+        serializedVersion: 2
+        x: 2049
+        y: 258
+        width: 256
+        height: 256
+      alignment: 9
+      pivot: {x: .492000014, y: .492000014}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: SP_Character_256_37
+      rect:
+        serializedVersion: 2
+        x: 2304
+        y: 256
+        width: 256
+        height: 256
+      alignment: 9
+      pivot: {x: .504999995, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: SP_Character_256_38
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 256
+        height: 256
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: SP_Character_256_39
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 0
+        width: 256
+        height: 256
+      alignment: 9
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: SP_Character_256_40
+      rect:
+        serializedVersion: 2
+        x: 509
+        y: 0
+        width: 256
+        height: 256
+      alignment: 9
+      pivot: {x: .513999999, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: SP_Character_256_41
+      rect:
+        serializedVersion: 2
+        x: 766
+        y: 0
+        width: 256
+        height: 256
+      alignment: 9
+      pivot: {x: .50999999, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: SP_Character_256_42
+      rect:
+        serializedVersion: 2
+        x: 1024
+        y: 0
+        width: 256
+        height: 256
+      alignment: 9
+      pivot: {x: .503000021, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: SP_Character_256_43
+      rect:
+        serializedVersion: 2
+        x: 1292
+        y: 2
+        width: 256
+        height: 256
+      alignment: 9
+      pivot: {x: .460000008, y: .49000001}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: SP_Character_256_44
+      rect:
+        serializedVersion: 2
+        x: 1536
+        y: 0
+        width: 256
+        height: 256
+      alignment: 9
+      pivot: {x: .503000021, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: SP_Character_256_45
+      rect:
+        serializedVersion: 2
+        x: 1792
+        y: 0
+        width: 256
+        height: 256
+      alignment: 9
+      pivot: {x: .503000021, y: .5}
       border: {x: 0, y: 0, z: 0, w: 0}
   spritePackingTag: 
   userData: 

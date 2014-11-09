@@ -1,15 +1,15 @@
 ﻿using UnityEngine;
+using System;
 using System.Collections;
 
 public class StateDead : StateBaseEnemy
 {
-	// Update is called once per frame
-	void Update () {
-	
-	}
+    public Action<GameObject> OnDie;
 
     public void Die(float TimeToDie)
     {
+        OnDie(gameObject);
+
         Debug.Log("StateDead " + name + " Died....");
 
         if(CanGoToState(StateName))
@@ -21,6 +21,11 @@ public class StateDead : StateBaseEnemy
         if (BalloonsGraphics && BalloonsGraphics.collider2D)
         {
             BalloonsGraphics.collider2D.isTrigger = true;
+        }
+
+        if (AnimController)
+        {
+            AnimController.SetTrigger("OnDie");
         }
 
         Destroy(gameObject, TimeToDie);

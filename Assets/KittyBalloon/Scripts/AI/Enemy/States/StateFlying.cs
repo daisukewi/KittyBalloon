@@ -17,16 +17,12 @@ public class StateFlying : StateBaseEnemy
     {
         if (AnimController)
         {
-            AnimController.SetBool("Flying", true);
+            AnimController.SetTrigger("OnFlyStart");
         }
     }
 
     public override void EndState()
     {
-        if (AnimController)
-        {
-            AnimController.SetBool("Flying", false);
-        }
     }
 
 	// Update is called once per frame

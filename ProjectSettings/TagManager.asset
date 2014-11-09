@@ -4,6 +4,7 @@
 TagManager:
   tags:
   - Balloons
+  - Enemy
   - 
   Builtin Layer 0: Default
   Builtin Layer 1: TransparentFX
@@ -61,4 +62,8 @@ TagManager:
   - name: Foreground
     userID: 5
     uniqueID: 3616394095
+    locked: 0
+  - name: ForeEnviroment
+    userID: 6
+    uniqueID: 1913968687
     locked: 0

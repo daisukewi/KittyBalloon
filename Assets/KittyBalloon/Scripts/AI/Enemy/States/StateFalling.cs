@@ -17,7 +17,7 @@ public class StateFalling : StateBaseEnemy
     {
         if (AnimController)
         {
-            AnimController.Play("Falling");
+            AnimController.SetTrigger("OnFall");
         }
     }
 
