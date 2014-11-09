@@ -25,14 +25,4 @@ public class ScrollScreenController : MonoBehaviour {
         position.x = -position.x + (position.x > 0 ? 0.1f : -0.1f);
         GetParent().transform.position = position;
     }
-
-    void OnTriggerEnter2D(Collider2D other)
-    {
-        Debug.Log(other.collider.tag);
-        if (other.collider.tag == "DieHard")
-        {
-            transform.parent.BroadcastMessage("TakeDamage", 2.0f);
-            Debug.Log("Im dead");
-        }
-    }
 }
